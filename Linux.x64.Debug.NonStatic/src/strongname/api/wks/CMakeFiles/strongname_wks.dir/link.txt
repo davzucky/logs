@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-3.5 cr libstrongname_wks.a  CMakeFiles/strongname_wks.dir/__/strongname.cpp.o CMakeFiles/strongname_wks.dir/__/strongnamecoreclr.cpp.o CMakeFiles/strongname_wks.dir/__/strongnameinternal.cpp.o CMakeFiles/strongname_wks.dir/__/__/__/__/version.cpp.o
+/usr/bin/ranlib libstrongname_wks.a

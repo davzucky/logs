@@ -1,0 +1,1 @@
+/usr/bin/clang++-3.5  -fPIC  -Wall -Wno-null-conversion -std=c++11 -g -O0   -shared -Wl,-soname,libSimpleStructNative.so -o libSimpleStructNative.so CMakeFiles/SimpleStructNative.dir/SimpleStructNative.cpp.o  

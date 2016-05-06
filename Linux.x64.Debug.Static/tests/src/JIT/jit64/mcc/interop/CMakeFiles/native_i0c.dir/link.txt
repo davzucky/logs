@@ -1,0 +1,1 @@
+/usr/bin/clang++-3.5  -fPIC  -Wall -Wno-null-conversion -std=c++11 -g -O0   -shared -Wl,-soname,native_i0c.so -o native_i0c/native_i0c.so CMakeFiles/native_i0c.dir/native_i0c.cpp.o  

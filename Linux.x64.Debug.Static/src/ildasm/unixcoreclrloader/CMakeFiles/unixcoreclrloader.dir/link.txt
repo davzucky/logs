@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-3.5 cr libunixcoreclrloader.a  CMakeFiles/unixcoreclrloader.dir/coreclrloader.cpp.o
+/usr/bin/ranlib libunixcoreclrloader.a

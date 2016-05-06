@@ -1,0 +1,1 @@
+/usr/bin/clang++-3.5  -fPIC  -Wall -Wno-null-conversion -std=c++11 -g -O0   -shared -Wl,-soname,FromNativePaths_lib.so -o FromNativePaths_lib.so CMakeFiles/FromNativePaths_lib.dir/FromNativePaths_lib.cpp.o  

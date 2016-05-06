@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-3.5 cr libdebug-pal.a  CMakeFiles/debug-pal.dir/unix/twowaypipe.cpp.o CMakeFiles/debug-pal.dir/__/__/__/version.cpp.o
+/usr/bin/ranlib libdebug-pal.a

@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-3.5 cr libeventprovider.a  CMakeFiles/eventprovider.dir/lttng/eventprovdotnetruntime.cpp.o CMakeFiles/eventprovider.dir/lttng/eventprovdotnetruntimerundown.cpp.o CMakeFiles/eventprovider.dir/lttng/eventprovdotnetruntimestress.cpp.o CMakeFiles/eventprovider.dir/lttng/eventprovdotnetruntimeprivate.cpp.o
+/usr/bin/ranlib libeventprovider.a

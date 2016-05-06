@@ -1,0 +1,1 @@
+/usr/bin/clang++-3.5  -fPIC  -Wall -Wno-null-conversion -std=c++11 -g -O0   -shared -Wl,-soname,libForeignThreadExceptionsNative.so -o libForeignThreadExceptionsNative.so CMakeFiles/ForeignThreadExceptionsNative.dir/ForeignThreadExceptionsNative.cpp.o  

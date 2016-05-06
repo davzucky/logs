@@ -1,0 +1,1 @@
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -g -O0    CMakeFiles/coreconsole.dir/coreconsole.cpp.o CMakeFiles/coreconsole.dir/__/__/__/__/version.cpp.o  -o coreconsole -rdynamic -ldl ../unixcoreruncommon/libunixcoreruncommon.a -lpthread -ldl  

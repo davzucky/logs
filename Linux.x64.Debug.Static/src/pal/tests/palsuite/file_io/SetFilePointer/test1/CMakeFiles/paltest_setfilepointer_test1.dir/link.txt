@@ -1,0 +1,1 @@
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -g -O0    CMakeFiles/paltest_setfilepointer_test1.dir/SetFilePointer.c.o  -o paltest_setfilepointer_test1 -rdynamic -lpthread -lm ../../../../../src/libcoreclrpal.a -lgcc_s -lpthread -lrt -ldl -luuid -lunwind -lunwind-generic -lunwind-x86_64  

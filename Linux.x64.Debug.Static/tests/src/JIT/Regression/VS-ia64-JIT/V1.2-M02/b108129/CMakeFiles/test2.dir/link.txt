@@ -1,0 +1,1 @@
+/usr/bin/clang++-3.5  -fPIC  -Wall -Wno-null-conversion -std=c++11 -g -O0   -shared -Wl,-soname,test2.so -o test2/test2.so CMakeFiles/test2.dir/test2.cpp.o  

@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-3.5 cr libpalrt.a  CMakeFiles/palrt.dir/bstr.cpp.o CMakeFiles/palrt.dir/coguid.cpp.o CMakeFiles/palrt.dir/comem.cpp.o CMakeFiles/palrt.dir/decarith.cpp.o CMakeFiles/palrt.dir/decconv.cpp.o CMakeFiles/palrt.dir/guid.cpp.o CMakeFiles/palrt.dir/memorystream.cpp.o CMakeFiles/palrt.dir/path.cpp.o CMakeFiles/palrt.dir/urlpars.cpp.o CMakeFiles/palrt.dir/unicode.cpp.o CMakeFiles/palrt.dir/variant.cpp.o CMakeFiles/palrt.dir/__/__/version.cpp.o
+/usr/bin/ranlib libpalrt.a

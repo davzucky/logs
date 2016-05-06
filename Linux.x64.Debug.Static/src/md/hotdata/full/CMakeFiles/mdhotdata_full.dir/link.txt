@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-3.5 cr libmdhotdata_full.a  CMakeFiles/mdhotdata_full.dir/__/hotmetadata.cpp.o CMakeFiles/mdhotdata_full.dir/__/hottable.cpp.o CMakeFiles/mdhotdata_full.dir/__/hotheapsdirectoryiterator.cpp.o CMakeFiles/mdhotdata_full.dir/__/hotheap.cpp.o CMakeFiles/mdhotdata_full.dir/__/hotheapwriter.cpp.o CMakeFiles/mdhotdata_full.dir/__/__/__/__/version.cpp.o
+/usr/bin/ranlib libmdhotdata_full.a

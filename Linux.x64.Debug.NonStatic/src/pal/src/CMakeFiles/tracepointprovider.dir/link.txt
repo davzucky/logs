@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-3.5 cr libtracepointprovider.a  CMakeFiles/tracepointprovider.dir/misc/tracepointprovider.cpp.o
+/usr/bin/ranlib libtracepointprovider.a

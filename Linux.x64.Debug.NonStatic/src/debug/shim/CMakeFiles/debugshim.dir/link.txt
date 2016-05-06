@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-3.5 cr libdebugshim.a  CMakeFiles/debugshim.dir/debugshim.cpp.o CMakeFiles/debugshim.dir/__/__/__/version.cpp.o
+/usr/bin/ranlib libdebugshim.a

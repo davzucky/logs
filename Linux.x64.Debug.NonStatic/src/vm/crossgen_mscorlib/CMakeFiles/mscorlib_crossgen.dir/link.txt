@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-3.5 cr libmscorlib_crossgen.a  CMakeFiles/mscorlib_crossgen.dir/__/mscorlib.cpp.o CMakeFiles/mscorlib_crossgen.dir/__/__/__/version.cpp.o
+/usr/bin/ranlib libmscorlib_crossgen.a

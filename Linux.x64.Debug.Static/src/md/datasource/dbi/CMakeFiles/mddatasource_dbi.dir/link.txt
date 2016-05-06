@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-3.5 cr libmddatasource_dbi.a  CMakeFiles/mddatasource_dbi.dir/__/api.cpp.o CMakeFiles/mddatasource_dbi.dir/__/datatargetreader.cpp.o CMakeFiles/mddatasource_dbi.dir/__/remotemdinternalrwsource.cpp.o CMakeFiles/mddatasource_dbi.dir/__/targettypes.cpp.o CMakeFiles/mddatasource_dbi.dir/__/__/__/__/version.cpp.o
+/usr/bin/ranlib libmddatasource_dbi.a

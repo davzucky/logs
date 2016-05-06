@@ -1,0 +1,1 @@
+/usr/bin/clang-3.5  -fPIC  -Wall -std=c11 -g -O0   -shared -Wl,-soname,libStructABILib.so -o libStructABILib.so CMakeFiles/StructABILib.dir/StructABI.c.o 

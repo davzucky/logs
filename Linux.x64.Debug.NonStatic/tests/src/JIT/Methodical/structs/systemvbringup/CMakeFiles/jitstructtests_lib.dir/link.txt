@@ -1,0 +1,1 @@
+/usr/bin/clang++-3.5  -fPIC  -Wall -Wno-null-conversion -std=c++11 -g -O0   -shared -Wl,-soname,jitstructtests_lib.so -o structinregs/jitstructtests_lib.so CMakeFiles/jitstructtests_lib.dir/structinregs.cpp.o  

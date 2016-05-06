@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-3.5 cr libmdhotdata_crossgen.a  CMakeFiles/mdhotdata_crossgen.dir/__/hotmetadata.cpp.o CMakeFiles/mdhotdata_crossgen.dir/__/hottable.cpp.o CMakeFiles/mdhotdata_crossgen.dir/__/hotheapsdirectoryiterator.cpp.o CMakeFiles/mdhotdata_crossgen.dir/__/hotheap.cpp.o CMakeFiles/mdhotdata_crossgen.dir/__/hotheapwriter.cpp.o CMakeFiles/mdhotdata_crossgen.dir/__/__/__/__/version.cpp.o
+/usr/bin/ranlib libmdhotdata_crossgen.a

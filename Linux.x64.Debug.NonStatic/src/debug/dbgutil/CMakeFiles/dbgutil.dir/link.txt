@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-3.5 cr libdbgutil.a  CMakeFiles/dbgutil.dir/dbgutil.cpp.o CMakeFiles/dbgutil.dir/__/__/__/version.cpp.o
+/usr/bin/ranlib libdbgutil.a

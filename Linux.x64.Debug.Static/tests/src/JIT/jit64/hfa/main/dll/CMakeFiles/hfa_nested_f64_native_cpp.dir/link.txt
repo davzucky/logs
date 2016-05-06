@@ -1,0 +1,1 @@
+/usr/bin/clang++-3.5  -fPIC  -Wall -Wno-null-conversion -std=c++11 -g -O0   -shared -Wl,-soname,hfa_nested_f64_native_cpp.so -o hfa_nested_f64_native_cpp/hfa_nested_f64_native_cpp.so CMakeFiles/hfa_nested_f64_native_cpp.dir/hfa_native.cpp.o  

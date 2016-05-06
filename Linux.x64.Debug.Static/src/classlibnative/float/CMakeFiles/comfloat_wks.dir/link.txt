@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-3.5 cr libcomfloat_wks.a  CMakeFiles/comfloat_wks.dir/floatnative.cpp.o CMakeFiles/comfloat_wks.dir/__/__/__/version.cpp.o
+/usr/bin/ranlib libcomfloat_wks.a
