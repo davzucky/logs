@@ -28,30 +28,30 @@ The CXX compiler identification is Clang, found in "/root/git/coreclr/bin/obj/Li
 Determining if the C compiler works passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec4234260743/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4234260743.dir/build.make CMakeFiles/cmTryCompileExec4234260743.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3370364630/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3370364630.dir/build.make CMakeFiles/cmTryCompileExec3370364630.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4234260743.dir/testCCompiler.c.o
-/usr/bin/clang-3.5   -Wall -std=c11    -o CMakeFiles/cmTryCompileExec4234260743.dir/testCCompiler.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec4234260743
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4234260743.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec4234260743.dir/testCCompiler.c.o  -o cmTryCompileExec4234260743 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec3370364630.dir/testCCompiler.c.o
+/usr/bin/clang-3.5   -Wall -std=c11    -o CMakeFiles/cmTryCompileExec3370364630.dir/testCCompiler.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3370364630
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3370364630.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec3370364630.dir/testCCompiler.c.o  -o cmTryCompileExec3370364630 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec177537299/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec177537299.dir/build.make CMakeFiles/cmTryCompileExec177537299.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec282671533/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec282671533.dir/build.make CMakeFiles/cmTryCompileExec282671533.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec177537299.dir/CMakeCCompilerABI.c.o
-/usr/bin/clang-3.5   -Wall -std=c11    -o CMakeFiles/cmTryCompileExec177537299.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec177537299
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec177537299.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11   -v CMakeFiles/cmTryCompileExec177537299.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec177537299 -rdynamic  
+Building C object CMakeFiles/cmTryCompileExec282671533.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang-3.5   -Wall -std=c11    -o CMakeFiles/cmTryCompileExec282671533.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec282671533
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec282671533.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11   -v CMakeFiles/cmTryCompileExec282671533.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec282671533 -rdynamic  
 Ubuntu clang version 3.5.0-4ubuntu2~trusty2 (tags/RELEASE_350/final) (based on LLVM 3.5.0)
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -66,7 +66,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9.3
 Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec177537299 /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../.. -L/usr/lib/llvm-3.5/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec177537299.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec282671533 /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../.. -L/usr/lib/llvm-3.5/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec282671533.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
@@ -74,15 +74,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(llvm-link-3\.5|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec177537299/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec177537299.dir/build.make CMakeFiles/cmTryCompileExec177537299.dir/build]
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec282671533/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec282671533.dir/build.make CMakeFiles/cmTryCompileExec282671533.dir/build]
   ignore line: [make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp']
   ignore line: [/usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec177537299.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/clang-3.5   -Wall -std=c11    -o CMakeFiles/cmTryCompileExec177537299.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec177537299]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec177537299.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/clang-3.5   -Wall -std=c11   -v CMakeFiles/cmTryCompileExec177537299.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec177537299 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec282671533.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang-3.5   -Wall -std=c11    -o CMakeFiles/cmTryCompileExec282671533.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec282671533]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec282671533.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang-3.5   -Wall -std=c11   -v CMakeFiles/cmTryCompileExec282671533.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec282671533 -rdynamic  ]
   ignore line: [Ubuntu clang version 3.5.0-4ubuntu2~trusty2 (tags/RELEASE_350/final) (based on LLVM 3.5.0)]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -99,7 +99,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec177537299 /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../.. -L/usr/lib/llvm-3.5/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec177537299.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec282671533 /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../.. -L/usr/lib/llvm-3.5/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec282671533.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-zrelro] ==> ignore
@@ -111,7 +111,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec177537299] ==> ignore
+    arg [cmTryCompileExec282671533] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -124,7 +124,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/llvm-3.5/bin/../lib] ==> dir [/usr/lib/llvm-3.5/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTryCompileExec177537299.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec282671533.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -157,30 +157,30 @@ Parsed C implicit link information from above output:
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2974838020/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2974838020.dir/build.make CMakeFiles/cmTryCompileExec2974838020.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2096036773/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2096036773.dir/build.make CMakeFiles/cmTryCompileExec2096036773.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2974838020.dir/testCXXCompiler.cxx.o
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec2974838020.dir/testCXXCompiler.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec2974838020
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2974838020.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11     CMakeFiles/cmTryCompileExec2974838020.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2974838020 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec2096036773.dir/testCXXCompiler.cxx.o
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec2096036773.dir/testCXXCompiler.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2096036773
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2096036773.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11     CMakeFiles/cmTryCompileExec2096036773.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2096036773 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3772489357/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3772489357.dir/build.make CMakeFiles/cmTryCompileExec3772489357.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3249632045/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3249632045.dir/build.make CMakeFiles/cmTryCompileExec3249632045.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3772489357.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec3772489357.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec3772489357
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3772489357.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11   -v CMakeFiles/cmTryCompileExec3772489357.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3772489357 -rdynamic  
+Building CXX object CMakeFiles/cmTryCompileExec3249632045.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec3249632045.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3249632045
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3249632045.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11   -v CMakeFiles/cmTryCompileExec3249632045.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3249632045 -rdynamic  
 Ubuntu clang version 3.5.0-4ubuntu2~trusty2 (tags/RELEASE_350/final) (based on LLVM 3.5.0)
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -195,7 +195,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9.3
 Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3772489357 /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../.. -L/usr/lib/llvm-3.5/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec3772489357.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3249632045 /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../.. -L/usr/lib/llvm-3.5/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec3249632045.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
@@ -203,15 +203,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(llvm-link-3\.5|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3772489357/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3772489357.dir/build.make CMakeFiles/cmTryCompileExec3772489357.dir/build]
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3249632045/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3249632045.dir/build.make CMakeFiles/cmTryCompileExec3249632045.dir/build]
   ignore line: [make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp']
   ignore line: [/usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3772489357.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec3772489357.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec3772489357]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3772489357.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11   -v CMakeFiles/cmTryCompileExec3772489357.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3772489357 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3249632045.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec3249632045.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3249632045]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3249632045.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11   -v CMakeFiles/cmTryCompileExec3249632045.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3249632045 -rdynamic  ]
   ignore line: [Ubuntu clang version 3.5.0-4ubuntu2~trusty2 (tags/RELEASE_350/final) (based on LLVM 3.5.0)]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -228,7 +228,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3772489357 /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../.. -L/usr/lib/llvm-3.5/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec3772489357.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3249632045 /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../.. -L/usr/lib/llvm-3.5/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec3249632045.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-zrelro] ==> ignore
@@ -240,7 +240,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec3772489357] ==> ignore
+    arg [cmTryCompileExec3249632045] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -253,7 +253,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/llvm-3.5/bin/../lib] ==> dir [/usr/lib/llvm-3.5/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTryCompileExec3772489357.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3249632045.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -284,19 +284,19 @@ Parsed CXX implicit link information from above output:
 Performing C++ SOURCE FILE Test HAVE_UDAT_STANDALONE_SHORTER_WEEKDAYS succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec180400509/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec180400509.dir/build.make CMakeFiles/cmTryCompileExec180400509.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec912724343/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec912724343.dir/build.make CMakeFiles/cmTryCompileExec912724343.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec180400509.dir/src.cxx.o
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_UDAT_STANDALONE_SHORTER_WEEKDAYS -I/usr/include/x86_64-linux-gnu -I/usr/local/opt/icu4c/include    -o CMakeFiles/cmTryCompileExec180400509.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec912724343.dir/src.cxx.o
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_UDAT_STANDALONE_SHORTER_WEEKDAYS -I/usr/include/x86_64-linux-gnu -I/usr/local/opt/icu4c/include    -o CMakeFiles/cmTryCompileExec912724343.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx:3:40: warning: unused variable 'e' [-Wunused-variable]
     int main() { UDateFormatSymbolType e = UDAT_STANDALONE_SHORTER_WEEKDAYS; }
                                        ^
 1 warning generated.
-Linking CXX executable cmTryCompileExec180400509
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec180400509.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_UDAT_STANDALONE_SHORTER_WEEKDAYS    CMakeFiles/cmTryCompileExec180400509.dir/src.cxx.o  -o cmTryCompileExec180400509 -rdynamic 
+Linking CXX executable cmTryCompileExec912724343
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec912724343.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_UDAT_STANDALONE_SHORTER_WEEKDAYS    CMakeFiles/cmTryCompileExec912724343.dir/src.cxx.o  -o cmTryCompileExec912724343 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -307,136 +307,136 @@ Source file was:
 Determining if files sys/time.h exist passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3206361677/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3206361677.dir/build.make CMakeFiles/cmTryCompileExec3206361677.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1182562576/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1182562576.dir/build.make CMakeFiles/cmTryCompileExec1182562576.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3206361677.dir/CheckIncludeFiles.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec3206361677.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTryCompileExec3206361677
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3206361677.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec3206361677.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3206361677 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1182562576.dir/CheckIncludeFiles.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec1182562576.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1182562576
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1182562576.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec1182562576.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1182562576 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if files libunwind.h exist passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1166109607/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1166109607.dir/build.make CMakeFiles/cmTryCompileExec1166109607.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3500860105/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3500860105.dir/build.make CMakeFiles/cmTryCompileExec3500860105.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1166109607.dir/CheckIncludeFiles.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec1166109607.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTryCompileExec1166109607
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1166109607.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec1166109607.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1166109607 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec3500860105.dir/CheckIncludeFiles.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec3500860105.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3500860105
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3500860105.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec3500860105.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3500860105 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if files lttng/tracepoint.h exist passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec968600890/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec968600890.dir/build.make CMakeFiles/cmTryCompileExec968600890.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3268308720/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3268308720.dir/build.make CMakeFiles/cmTryCompileExec3268308720.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec968600890.dir/CheckIncludeFiles.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec968600890.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTryCompileExec968600890
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec968600890.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec968600890.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec968600890 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec3268308720.dir/CheckIncludeFiles.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec3268308720.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3268308720
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3268308720.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec3268308720.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3268308720 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if files uuid/uuid.h exist passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1383060427/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1383060427.dir/build.make CMakeFiles/cmTryCompileExec1383060427.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3203367221/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3203367221.dir/build.make CMakeFiles/cmTryCompileExec3203367221.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1383060427.dir/CheckIncludeFiles.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec1383060427.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTryCompileExec1383060427
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1383060427.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec1383060427.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1383060427 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec3203367221.dir/CheckIncludeFiles.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec3203367221.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3203367221
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3203367221.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec3203367221.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3203367221 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function getpwuid_r exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2147700670/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2147700670.dir/build.make CMakeFiles/cmTryCompileExec2147700670.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec967349705/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec967349705.dir/build.make CMakeFiles/cmTryCompileExec967349705.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2147700670.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=getpwuid_r   -o CMakeFiles/cmTryCompileExec2147700670.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2147700670
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2147700670.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=getpwuid_r    CMakeFiles/cmTryCompileExec2147700670.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2147700670 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec967349705.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=getpwuid_r   -o CMakeFiles/cmTryCompileExec967349705.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec967349705
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec967349705.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=getpwuid_r    CMakeFiles/cmTryCompileExec967349705.dir/CheckFunctionExists.c.o  -o cmTryCompileExec967349705 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_getattr_np exists in the pthread passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2151486849/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2151486849.dir/build.make CMakeFiles/cmTryCompileExec2151486849.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec4011971502/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4011971502.dir/build.make CMakeFiles/cmTryCompileExec4011971502.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2151486849.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_getattr_np   -o CMakeFiles/cmTryCompileExec2151486849.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2151486849
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2151486849.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_getattr_np    CMakeFiles/cmTryCompileExec2151486849.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2151486849 -rdynamic -lpthread 
+Building C object CMakeFiles/cmTryCompileExec4011971502.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_getattr_np   -o CMakeFiles/cmTryCompileExec4011971502.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4011971502
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4011971502.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_getattr_np    CMakeFiles/cmTryCompileExec4011971502.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4011971502 -rdynamic -lpthread 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_getcpuclockid exists in the pthread passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec830074545/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec830074545.dir/build.make CMakeFiles/cmTryCompileExec830074545.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2066784080/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2066784080.dir/build.make CMakeFiles/cmTryCompileExec2066784080.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec830074545.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_getcpuclockid   -o CMakeFiles/cmTryCompileExec830074545.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec830074545
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec830074545.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_getcpuclockid    CMakeFiles/cmTryCompileExec830074545.dir/CheckFunctionExists.c.o  -o cmTryCompileExec830074545 -rdynamic -lpthread 
+Building C object CMakeFiles/cmTryCompileExec2066784080.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_getcpuclockid   -o CMakeFiles/cmTryCompileExec2066784080.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2066784080
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2066784080.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_getcpuclockid    CMakeFiles/cmTryCompileExec2066784080.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2066784080 -rdynamic -lpthread 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_sigqueue exists in the pthread passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2943785458/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2943785458.dir/build.make CMakeFiles/cmTryCompileExec2943785458.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3146410275/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3146410275.dir/build.make CMakeFiles/cmTryCompileExec3146410275.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2943785458.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_sigqueue   -o CMakeFiles/cmTryCompileExec2943785458.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2943785458
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2943785458.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_sigqueue    CMakeFiles/cmTryCompileExec2943785458.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2943785458 -rdynamic -lpthread 
+Building C object CMakeFiles/cmTryCompileExec3146410275.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_sigqueue   -o CMakeFiles/cmTryCompileExec3146410275.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3146410275
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3146410275.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_sigqueue    CMakeFiles/cmTryCompileExec3146410275.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3146410275 -rdynamic -lpthread 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function sigreturn exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1821880864/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1821880864.dir/build.make CMakeFiles/cmTryCompileExec1821880864.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec920372321/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec920372321.dir/build.make CMakeFiles/cmTryCompileExec920372321.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1821880864.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=sigreturn   -o CMakeFiles/cmTryCompileExec1821880864.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec1821880864
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1821880864.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=sigreturn    CMakeFiles/cmTryCompileExec1821880864.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1821880864 -rdynamic 
-CMakeFiles/cmTryCompileExec1821880864.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec920372321.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=sigreturn   -o CMakeFiles/cmTryCompileExec920372321.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec920372321
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec920372321.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=sigreturn    CMakeFiles/cmTryCompileExec920372321.dir/CheckFunctionExists.c.o  -o cmTryCompileExec920372321 -rdynamic 
+CMakeFiles/cmTryCompileExec920372321.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): warning: sigreturn is not implemented and will always fail
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
@@ -444,12 +444,12 @@ make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles
 Determining if the function copysign exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3741873221/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3741873221.dir/build.make CMakeFiles/cmTryCompileExec3741873221.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1010271433/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1010271433.dir/build.make CMakeFiles/cmTryCompileExec1010271433.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3741873221.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=copysign   -o CMakeFiles/cmTryCompileExec3741873221.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Building C object CMakeFiles/cmTryCompileExec1010271433.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=copysign   -o CMakeFiles/cmTryCompileExec1010271433.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'copysign' [-Wincompatible-library-redeclaration]
 char CHECK_FUNCTION_EXISTS();
      ^
@@ -461,204 +461,204 @@ char CHECK_FUNCTION_EXISTS();
 #define CHECK_FUNCTION_EXISTS copysign
                               ^
 1 warning generated.
-Linking C executable cmTryCompileExec3741873221
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3741873221.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=copysign    CMakeFiles/cmTryCompileExec3741873221.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3741873221 -rdynamic -lm 
+Linking C executable cmTryCompileExec1010271433
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1010271433.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=copysign    CMakeFiles/cmTryCompileExec1010271433.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1010271433 -rdynamic -lm 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function fsync exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2418468431/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2418468431.dir/build.make CMakeFiles/cmTryCompileExec2418468431.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3686258909/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3686258909.dir/build.make CMakeFiles/cmTryCompileExec3686258909.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2418468431.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=fsync   -o CMakeFiles/cmTryCompileExec2418468431.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2418468431
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2418468431.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=fsync    CMakeFiles/cmTryCompileExec2418468431.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2418468431 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec3686258909.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=fsync   -o CMakeFiles/cmTryCompileExec3686258909.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3686258909
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3686258909.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=fsync    CMakeFiles/cmTryCompileExec3686258909.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3686258909 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function futimes exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2655436949/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2655436949.dir/build.make CMakeFiles/cmTryCompileExec2655436949.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1920057155/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1920057155.dir/build.make CMakeFiles/cmTryCompileExec1920057155.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2655436949.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=futimes   -o CMakeFiles/cmTryCompileExec2655436949.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2655436949
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2655436949.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=futimes    CMakeFiles/cmTryCompileExec2655436949.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2655436949 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1920057155.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=futimes   -o CMakeFiles/cmTryCompileExec1920057155.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1920057155
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1920057155.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=futimes    CMakeFiles/cmTryCompileExec1920057155.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1920057155 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function utimes exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1331624854/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1331624854.dir/build.make CMakeFiles/cmTryCompileExec1331624854.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1568304453/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1568304453.dir/build.make CMakeFiles/cmTryCompileExec1568304453.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1331624854.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=utimes   -o CMakeFiles/cmTryCompileExec1331624854.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec1331624854
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1331624854.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=utimes    CMakeFiles/cmTryCompileExec1331624854.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1331624854 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1568304453.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=utimes   -o CMakeFiles/cmTryCompileExec1568304453.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1568304453
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1568304453.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=utimes    CMakeFiles/cmTryCompileExec1568304453.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1568304453 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function sysctl exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2714737310/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2714737310.dir/build.make CMakeFiles/cmTryCompileExec2714737310.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3024932489/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3024932489.dir/build.make CMakeFiles/cmTryCompileExec3024932489.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2714737310.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=sysctl   -o CMakeFiles/cmTryCompileExec2714737310.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2714737310
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2714737310.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=sysctl    CMakeFiles/cmTryCompileExec2714737310.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2714737310 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec3024932489.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=sysctl   -o CMakeFiles/cmTryCompileExec3024932489.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3024932489
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3024932489.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=sysctl    CMakeFiles/cmTryCompileExec3024932489.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3024932489 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function sysconf exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec779371274/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec779371274.dir/build.make CMakeFiles/cmTryCompileExec779371274.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3236976340/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3236976340.dir/build.make CMakeFiles/cmTryCompileExec3236976340.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec779371274.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=sysconf   -o CMakeFiles/cmTryCompileExec779371274.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec779371274
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec779371274.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=sysconf    CMakeFiles/cmTryCompileExec779371274.dir/CheckFunctionExists.c.o  -o cmTryCompileExec779371274 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec3236976340.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=sysconf   -o CMakeFiles/cmTryCompileExec3236976340.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3236976340
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3236976340.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=sysconf    CMakeFiles/cmTryCompileExec3236976340.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3236976340 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function localtime_r exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3819277810/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3819277810.dir/build.make CMakeFiles/cmTryCompileExec3819277810.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2374408601/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2374408601.dir/build.make CMakeFiles/cmTryCompileExec2374408601.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3819277810.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=localtime_r   -o CMakeFiles/cmTryCompileExec3819277810.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3819277810
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3819277810.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=localtime_r    CMakeFiles/cmTryCompileExec3819277810.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3819277810 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec2374408601.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=localtime_r   -o CMakeFiles/cmTryCompileExec2374408601.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2374408601
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2374408601.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=localtime_r    CMakeFiles/cmTryCompileExec2374408601.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2374408601 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gmtime_r exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec4181957013/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4181957013.dir/build.make CMakeFiles/cmTryCompileExec4181957013.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3592794045/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3592794045.dir/build.make CMakeFiles/cmTryCompileExec3592794045.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4181957013.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=gmtime_r   -o CMakeFiles/cmTryCompileExec4181957013.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec4181957013
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4181957013.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=gmtime_r    CMakeFiles/cmTryCompileExec4181957013.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4181957013 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec3592794045.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=gmtime_r   -o CMakeFiles/cmTryCompileExec3592794045.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3592794045
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3592794045.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=gmtime_r    CMakeFiles/cmTryCompileExec3592794045.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3592794045 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function timegm exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1911255142/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1911255142.dir/build.make CMakeFiles/cmTryCompileExec1911255142.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1462444161/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1462444161.dir/build.make CMakeFiles/cmTryCompileExec1462444161.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1911255142.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=timegm   -o CMakeFiles/cmTryCompileExec1911255142.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec1911255142
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1911255142.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=timegm    CMakeFiles/cmTryCompileExec1911255142.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1911255142 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1462444161.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=timegm   -o CMakeFiles/cmTryCompileExec1462444161.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1462444161
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1462444161.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=timegm    CMakeFiles/cmTryCompileExec1462444161.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1462444161 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function poll exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec84688626/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec84688626.dir/build.make CMakeFiles/cmTryCompileExec84688626.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3025921458/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3025921458.dir/build.make CMakeFiles/cmTryCompileExec3025921458.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec84688626.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTryCompileExec84688626.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec84688626
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec84688626.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=poll    CMakeFiles/cmTryCompileExec84688626.dir/CheckFunctionExists.c.o  -o cmTryCompileExec84688626 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec3025921458.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTryCompileExec3025921458.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3025921458
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3025921458.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=poll    CMakeFiles/cmTryCompileExec3025921458.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3025921458 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function statvfs exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec924898885/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec924898885.dir/build.make CMakeFiles/cmTryCompileExec924898885.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1659195617/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1659195617.dir/build.make CMakeFiles/cmTryCompileExec1659195617.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec924898885.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=statvfs   -o CMakeFiles/cmTryCompileExec924898885.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec924898885
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec924898885.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=statvfs    CMakeFiles/cmTryCompileExec924898885.dir/CheckFunctionExists.c.o  -o cmTryCompileExec924898885 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1659195617.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=statvfs   -o CMakeFiles/cmTryCompileExec1659195617.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1659195617
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1659195617.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=statvfs    CMakeFiles/cmTryCompileExec1659195617.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1659195617 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function semget exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1083345899/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1083345899.dir/build.make CMakeFiles/cmTryCompileExec1083345899.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3721420674/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3721420674.dir/build.make CMakeFiles/cmTryCompileExec3721420674.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1083345899.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=semget   -o CMakeFiles/cmTryCompileExec1083345899.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec1083345899
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1083345899.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=semget    CMakeFiles/cmTryCompileExec1083345899.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1083345899 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec3721420674.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=semget   -o CMakeFiles/cmTryCompileExec3721420674.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3721420674
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3721420674.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=semget    CMakeFiles/cmTryCompileExec3721420674.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3721420674 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_mutex_init exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec901147880/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec901147880.dir/build.make CMakeFiles/cmTryCompileExec901147880.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1796691450/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1796691450.dir/build.make CMakeFiles/cmTryCompileExec1796691450.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec901147880.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_mutex_init   -o CMakeFiles/cmTryCompileExec901147880.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec901147880
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec901147880.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_mutex_init    CMakeFiles/cmTryCompileExec901147880.dir/CheckFunctionExists.c.o  -o cmTryCompileExec901147880 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1796691450.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_mutex_init   -o CMakeFiles/cmTryCompileExec1796691450.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1796691450
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1796691450.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_mutex_init    CMakeFiles/cmTryCompileExec1796691450.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1796691450 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Performing C++ SOURCE FILE Test HAVE_UNW_GET_SAVE_LOC succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1495744660/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1495744660.dir/build.make CMakeFiles/cmTryCompileExec1495744660.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1439186269/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1439186269.dir/build.make CMakeFiles/cmTryCompileExec1439186269.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1495744660.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_UNW_GET_SAVE_LOC   -o CMakeFiles/cmTryCompileExec1495744660.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec1495744660
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1495744660.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_UNW_GET_SAVE_LOC    CMakeFiles/cmTryCompileExec1495744660.dir/src.cxx.o  -o cmTryCompileExec1495744660 -rdynamic -lunwind -lunwind-generic 
+Building CXX object CMakeFiles/cmTryCompileExec1439186269.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_UNW_GET_SAVE_LOC   -o CMakeFiles/cmTryCompileExec1439186269.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1439186269
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1439186269.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_UNW_GET_SAVE_LOC    CMakeFiles/cmTryCompileExec1439186269.dir/src.cxx.o  -o cmTryCompileExec1439186269 -rdynamic -lunwind -lunwind-generic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -676,12 +676,12 @@ int main(int argc, char **argv) {
 Performing C++ SOURCE FILE Test HAVE_UNW_GET_ACCESSORS succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3000345369/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3000345369.dir/build.make CMakeFiles/cmTryCompileExec3000345369.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3943631470/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3943631470.dir/build.make CMakeFiles/cmTryCompileExec3943631470.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3000345369.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_UNW_GET_ACCESSORS   -o CMakeFiles/cmTryCompileExec3000345369.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec3943631470.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_UNW_GET_ACCESSORS   -o CMakeFiles/cmTryCompileExec3943631470.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx:6:21: warning: variable 'as' is uninitialized when used here [-Wuninitialized]
   unw_get_accessors(as);
                     ^~
@@ -690,9 +690,9 @@ Building CXX object CMakeFiles/cmTryCompileExec3000345369.dir/src.cxx.o
                      ^
                       = nullptr
 1 warning generated.
-Linking CXX executable cmTryCompileExec3000345369
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3000345369.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_UNW_GET_ACCESSORS    CMakeFiles/cmTryCompileExec3000345369.dir/src.cxx.o  -o cmTryCompileExec3000345369 -rdynamic -lunwind -lunwind-generic 
+Linking CXX executable cmTryCompileExec3943631470
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3943631470.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_UNW_GET_ACCESSORS    CMakeFiles/cmTryCompileExec3943631470.dir/src.cxx.o  -o cmTryCompileExec3943631470 -rdynamic -lunwind -lunwind-generic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -708,12 +708,12 @@ int main(int argc, char **argv) {
 Performing C SOURCE FILE Test HAVE_TM_GMTOFF succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3938434599/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3938434599.dir/build.make CMakeFiles/cmTryCompileExec3938434599.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1612935006/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1612935006.dir/build.make CMakeFiles/cmTryCompileExec1612935006.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3938434599.dir/src.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DHAVE_TM_GMTOFF   -o CMakeFiles/cmTryCompileExec3938434599.dir/src.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTryCompileExec1612935006.dir/src.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DHAVE_TM_GMTOFF   -o CMakeFiles/cmTryCompileExec1612935006.dir/src.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.c:7:9: warning: expression result unused [-Wunused-value]
    tmp->tm_gmtoff;
    ~~~  ^~~~~~~~~
@@ -725,9 +725,9 @@ Building C object CMakeFiles/cmTryCompileExec3938434599.dir/src.c.o
                  ^
                   = NULL
 2 warnings generated.
-Linking C executable cmTryCompileExec3938434599
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3938434599.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DHAVE_TM_GMTOFF    CMakeFiles/cmTryCompileExec3938434599.dir/src.c.o  -o cmTryCompileExec3938434599 -rdynamic 
+Linking C executable cmTryCompileExec1612935006
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1612935006.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DHAVE_TM_GMTOFF    CMakeFiles/cmTryCompileExec1612935006.dir/src.c.o  -o cmTryCompileExec1612935006 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -744,12 +744,12 @@ int main()
 Performing C SOURCE FILE Test HAVE_GREGSET_T succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1952758679/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1952758679.dir/build.make CMakeFiles/cmTryCompileExec1952758679.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2004002463/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2004002463.dir/build.make CMakeFiles/cmTryCompileExec2004002463.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1952758679.dir/src.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DHAVE_GREGSET_T   -o CMakeFiles/cmTryCompileExec1952758679.dir/src.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTryCompileExec2004002463.dir/src.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DHAVE_GREGSET_T   -o CMakeFiles/cmTryCompileExec2004002463.dir/src.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.c:7:28: warning: expression result unused [-Wunused-value]
    tmp->uc_mcontext.gregs[0];
    ~~~~~~~~~~~~~~~~~~~~~~ ~^
@@ -761,9 +761,9 @@ Building C object CMakeFiles/cmTryCompileExec1952758679.dir/src.c.o
                   ^
                    = 0
 2 warnings generated.
-Linking C executable cmTryCompileExec1952758679
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1952758679.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DHAVE_GREGSET_T    CMakeFiles/cmTryCompileExec1952758679.dir/src.c.o  -o cmTryCompileExec1952758679 -rdynamic 
+Linking C executable cmTryCompileExec2004002463
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2004002463.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DHAVE_GREGSET_T    CMakeFiles/cmTryCompileExec2004002463.dir/src.c.o  -o cmTryCompileExec2004002463 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -780,135 +780,135 @@ int main()
 Determining if the include file sys/types.h exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2221806346/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2221806346.dir/build.make CMakeFiles/cmTryCompileExec2221806346.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2264760385/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2264760385.dir/build.make CMakeFiles/cmTryCompileExec2264760385.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2221806346.dir/CheckIncludeFile.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec2221806346.dir/CheckIncludeFile.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTryCompileExec2221806346
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2221806346.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec2221806346.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2221806346 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec2264760385.dir/CheckIncludeFile.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec2264760385.dir/CheckIncludeFile.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2264760385
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2264760385.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec2264760385.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2264760385 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stdint.h exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2038860436/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2038860436.dir/build.make CMakeFiles/cmTryCompileExec2038860436.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec4270430904/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4270430904.dir/build.make CMakeFiles/cmTryCompileExec4270430904.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2038860436.dir/CheckIncludeFile.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec2038860436.dir/CheckIncludeFile.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTryCompileExec2038860436
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2038860436.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec2038860436.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2038860436 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec4270430904.dir/CheckIncludeFile.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec4270430904.dir/CheckIncludeFile.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4270430904
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4270430904.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec4270430904.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4270430904 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stddef.h exists passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3585875759/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3585875759.dir/build.make CMakeFiles/cmTryCompileExec3585875759.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec4077987357/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4077987357.dir/build.make CMakeFiles/cmTryCompileExec4077987357.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3585875759.dir/CheckIncludeFile.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec3585875759.dir/CheckIncludeFile.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTryCompileExec3585875759
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3585875759.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec3585875759.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3585875759 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec4077987357.dir/CheckIncludeFile.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec4077987357.dir/CheckIncludeFile.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4077987357
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4077987357.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec4077987357.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4077987357 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining size of struct pt_regs passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec684471867/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec684471867.dir/build.make CMakeFiles/cmTryCompileExec684471867.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec805264857/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec805264857.dir/build.make CMakeFiles/cmTryCompileExec805264857.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec684471867.dir/PT_REGS.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec684471867.dir/PT_REGS.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/PT_REGS.c
-Linking C executable cmTryCompileExec684471867
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec684471867.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec684471867.dir/PT_REGS.c.o  -o cmTryCompileExec684471867 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec805264857.dir/PT_REGS.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec805264857.dir/PT_REGS.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/PT_REGS.c
+Linking C executable cmTryCompileExec805264857
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec805264857.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec805264857.dir/PT_REGS.c.o  -o cmTryCompileExec805264857 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining size of siginfo_t passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec379830061/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec379830061.dir/build.make CMakeFiles/cmTryCompileExec379830061.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1978817525/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1978817525.dir/build.make CMakeFiles/cmTryCompileExec1978817525.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec379830061.dir/SIGINFO_T.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec379830061.dir/SIGINFO_T.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/SIGINFO_T.c
-Linking C executable cmTryCompileExec379830061
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec379830061.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec379830061.dir/SIGINFO_T.c.o  -o cmTryCompileExec379830061 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1978817525.dir/SIGINFO_T.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec1978817525.dir/SIGINFO_T.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/SIGINFO_T.c
+Linking C executable cmTryCompileExec1978817525
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1978817525.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec1978817525.dir/SIGINFO_T.c.o  -o cmTryCompileExec1978817525 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining size of ucontext_t passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec647494399/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec647494399.dir/build.make CMakeFiles/cmTryCompileExec647494399.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2384364842/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2384364842.dir/build.make CMakeFiles/cmTryCompileExec2384364842.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec647494399.dir/UCONTEXT_T.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec647494399.dir/UCONTEXT_T.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/UCONTEXT_T.c
-Linking C executable cmTryCompileExec647494399
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec647494399.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec647494399.dir/UCONTEXT_T.c.o  -o cmTryCompileExec647494399 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec2384364842.dir/UCONTEXT_T.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec2384364842.dir/UCONTEXT_T.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/UCONTEXT_T.c
+Linking C executable cmTryCompileExec2384364842
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2384364842.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec2384364842.dir/UCONTEXT_T.c.o  -o cmTryCompileExec2384364842 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining size of pthread_rwlock_t passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2299114545/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2299114545.dir/build.make CMakeFiles/cmTryCompileExec2299114545.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1765455007/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1765455007.dir/build.make CMakeFiles/cmTryCompileExec1765455007.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2299114545.dir/PTHREAD_RWLOCK_T.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec2299114545.dir/PTHREAD_RWLOCK_T.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/PTHREAD_RWLOCK_T.c
-Linking C executable cmTryCompileExec2299114545
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2299114545.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec2299114545.dir/PTHREAD_RWLOCK_T.c.o  -o cmTryCompileExec2299114545 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1765455007.dir/PTHREAD_RWLOCK_T.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec1765455007.dir/PTHREAD_RWLOCK_T.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/PTHREAD_RWLOCK_T.c
+Linking C executable cmTryCompileExec1765455007
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1765455007.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec1765455007.dir/PTHREAD_RWLOCK_T.c.o  -o cmTryCompileExec1765455007 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining size of off_t passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec4232990004/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4232990004.dir/build.make CMakeFiles/cmTryCompileExec4232990004.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2325041315/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2325041315.dir/build.make CMakeFiles/cmTryCompileExec2325041315.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4232990004.dir/SIZEOF_OFF_T.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec4232990004.dir/SIZEOF_OFF_T.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
-Linking C executable cmTryCompileExec4232990004
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4232990004.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec4232990004.dir/SIZEOF_OFF_T.c.o  -o cmTryCompileExec4232990004 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec2325041315.dir/SIZEOF_OFF_T.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec2325041315.dir/SIZEOF_OFF_T.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+Linking C executable cmTryCompileExec2325041315
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2325041315.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11     CMakeFiles/cmTryCompileExec2325041315.dir/SIZEOF_OFF_T.c.o  -o cmTryCompileExec2325041315 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the CHAR_BIT exist passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3618415917/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3618415917.dir/build.make CMakeFiles/cmTryCompileExec3618415917.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2890616933/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2890616933.dir/build.make CMakeFiles/cmTryCompileExec2890616933.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3618415917.dir/CheckSymbolExists.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec3618415917.dir/CheckSymbolExists.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTryCompileExec3618415917
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3618415917.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11     CMakeFiles/cmTryCompileExec3618415917.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec3618415917 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec2890616933.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec2890616933.dir/CheckSymbolExists.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec2890616933
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2890616933.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11     CMakeFiles/cmTryCompileExec2890616933.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec2890616933 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 File /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
@@ -929,15 +929,15 @@ int main(int argc, char** argv)
 Determining if the _SC_PHYS_PAGES exist passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3153749535/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3153749535.dir/build.make CMakeFiles/cmTryCompileExec3153749535.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec4060821282/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4060821282.dir/build.make CMakeFiles/cmTryCompileExec4060821282.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3153749535.dir/CheckSymbolExists.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec3153749535.dir/CheckSymbolExists.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTryCompileExec3153749535
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3153749535.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11     CMakeFiles/cmTryCompileExec3153749535.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec3153749535 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec4060821282.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec4060821282.dir/CheckSymbolExists.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec4060821282
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4060821282.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11     CMakeFiles/cmTryCompileExec4060821282.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec4060821282 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 File /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
@@ -958,15 +958,15 @@ int main(int argc, char** argv)
 Determining if the _SC_AVPHYS_PAGES exist passed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec426584941/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec426584941.dir/build.make CMakeFiles/cmTryCompileExec426584941.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1159640314/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1159640314.dir/build.make CMakeFiles/cmTryCompileExec1159640314.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec426584941.dir/CheckSymbolExists.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec426584941.dir/CheckSymbolExists.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTryCompileExec426584941
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec426584941.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11     CMakeFiles/cmTryCompileExec426584941.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec426584941 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec1159640314.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec1159640314.dir/CheckSymbolExists.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec1159640314
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1159640314.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11     CMakeFiles/cmTryCompileExec1159640314.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec1159640314 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 File /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
@@ -987,15 +987,15 @@ int main(int argc, char** argv)
 Performing C++ SOURCE FILE Test SSCANF_SUPPORT_ll succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1497803605/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1497803605.dir/build.make CMakeFiles/cmTryCompileExec1497803605.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3140043728/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3140043728.dir/build.make CMakeFiles/cmTryCompileExec3140043728.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1497803605.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DSSCANF_SUPPORT_ll   -o CMakeFiles/cmTryCompileExec1497803605.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec1497803605
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1497803605.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DSSCANF_SUPPORT_ll    CMakeFiles/cmTryCompileExec1497803605.dir/src.cxx.o  -o cmTryCompileExec1497803605 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec3140043728.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DSSCANF_SUPPORT_ll   -o CMakeFiles/cmTryCompileExec3140043728.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3140043728
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3140043728.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DSSCANF_SUPPORT_ll    CMakeFiles/cmTryCompileExec3140043728.dir/src.cxx.o  -o cmTryCompileExec3140043728 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1012,15 +1012,15 @@ int main(void)
 Performing C++ SOURCE FILE Test HAVE_LARGE_SNPRINTF_SUPPORT succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2798334471/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2798334471.dir/build.make CMakeFiles/cmTryCompileExec2798334471.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2045497915/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2045497915.dir/build.make CMakeFiles/cmTryCompileExec2045497915.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2798334471.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_LARGE_SNPRINTF_SUPPORT   -o CMakeFiles/cmTryCompileExec2798334471.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec2798334471
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2798334471.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_LARGE_SNPRINTF_SUPPORT    CMakeFiles/cmTryCompileExec2798334471.dir/src.cxx.o  -o cmTryCompileExec2798334471 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec2045497915.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_LARGE_SNPRINTF_SUPPORT   -o CMakeFiles/cmTryCompileExec2045497915.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2045497915
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2045497915.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_LARGE_SNPRINTF_SUPPORT    CMakeFiles/cmTryCompileExec2045497915.dir/src.cxx.o  -o cmTryCompileExec2045497915 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1040,15 +1040,15 @@ int main(void) {
 Performing C++ SOURCE FILE Test HAVE_SCHED_GET_PRIORITY succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1297978041/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1297978041.dir/build.make CMakeFiles/cmTryCompileExec1297978041.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3498366360/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3498366360.dir/build.make CMakeFiles/cmTryCompileExec3498366360.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1297978041.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_SCHED_GET_PRIORITY   -o CMakeFiles/cmTryCompileExec1297978041.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec1297978041
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1297978041.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_SCHED_GET_PRIORITY    CMakeFiles/cmTryCompileExec1297978041.dir/src.cxx.o  -o cmTryCompileExec1297978041 -rdynamic -lpthread 
+Building CXX object CMakeFiles/cmTryCompileExec3498366360.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_SCHED_GET_PRIORITY   -o CMakeFiles/cmTryCompileExec3498366360.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3498366360
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3498366360.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_SCHED_GET_PRIORITY    CMakeFiles/cmTryCompileExec3498366360.dir/src.cxx.o  -o cmTryCompileExec3498366360 -rdynamic -lpthread 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1079,15 +1079,15 @@ int main(void)
 Performing C++ SOURCE FILE Test HAVE_SCHED_GETCPU succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec475219833/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec475219833.dir/build.make CMakeFiles/cmTryCompileExec475219833.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3955030662/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3955030662.dir/build.make CMakeFiles/cmTryCompileExec3955030662.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec475219833.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_SCHED_GETCPU   -o CMakeFiles/cmTryCompileExec475219833.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec475219833
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec475219833.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_SCHED_GETCPU    CMakeFiles/cmTryCompileExec475219833.dir/src.cxx.o  -o cmTryCompileExec475219833 -rdynamic -lpthread 
+Building CXX object CMakeFiles/cmTryCompileExec3955030662.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_SCHED_GETCPU   -o CMakeFiles/cmTryCompileExec3955030662.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3955030662
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3955030662.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_SCHED_GETCPU    CMakeFiles/cmTryCompileExec3955030662.dir/src.cxx.o  -o cmTryCompileExec3955030662 -rdynamic -lpthread 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1107,15 +1107,15 @@ int main(void)
 Performing C++ SOURCE FILE Test HAVE_WORKING_GETTIMEOFDAY succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2801339900/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2801339900.dir/build.make CMakeFiles/cmTryCompileExec2801339900.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2873102085/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2873102085.dir/build.make CMakeFiles/cmTryCompileExec2873102085.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2801339900.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_WORKING_GETTIMEOFDAY   -o CMakeFiles/cmTryCompileExec2801339900.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec2801339900
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2801339900.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_WORKING_GETTIMEOFDAY    CMakeFiles/cmTryCompileExec2801339900.dir/src.cxx.o  -o cmTryCompileExec2801339900 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec2873102085.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_WORKING_GETTIMEOFDAY   -o CMakeFiles/cmTryCompileExec2873102085.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2873102085
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2873102085.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_WORKING_GETTIMEOFDAY    CMakeFiles/cmTryCompileExec2873102085.dir/src.cxx.o  -o cmTryCompileExec2873102085 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1136,15 +1136,15 @@ int main()
 Performing C++ SOURCE FILE Test HAVE_WORKING_CLOCK_GETTIME succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3576637344/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3576637344.dir/build.make CMakeFiles/cmTryCompileExec3576637344.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1526019556/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1526019556.dir/build.make CMakeFiles/cmTryCompileExec1526019556.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3576637344.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_WORKING_CLOCK_GETTIME   -o CMakeFiles/cmTryCompileExec3576637344.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec3576637344
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3576637344.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_WORKING_CLOCK_GETTIME    CMakeFiles/cmTryCompileExec3576637344.dir/src.cxx.o  -o cmTryCompileExec3576637344 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec1526019556.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_WORKING_CLOCK_GETTIME   -o CMakeFiles/cmTryCompileExec1526019556.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1526019556
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1526019556.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_WORKING_CLOCK_GETTIME    CMakeFiles/cmTryCompileExec1526019556.dir/src.cxx.o  -o cmTryCompileExec1526019556 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1165,15 +1165,15 @@ int main()
 Performing C++ SOURCE FILE Test HAVE_CLOCK_MONOTONIC succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1439809465/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1439809465.dir/build.make CMakeFiles/cmTryCompileExec1439809465.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3050486818/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3050486818.dir/build.make CMakeFiles/cmTryCompileExec3050486818.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1439809465.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_CLOCK_MONOTONIC   -o CMakeFiles/cmTryCompileExec1439809465.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec1439809465
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1439809465.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_CLOCK_MONOTONIC    CMakeFiles/cmTryCompileExec1439809465.dir/src.cxx.o  -o cmTryCompileExec1439809465 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec3050486818.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_CLOCK_MONOTONIC   -o CMakeFiles/cmTryCompileExec3050486818.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3050486818
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3050486818.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_CLOCK_MONOTONIC    CMakeFiles/cmTryCompileExec3050486818.dir/src.cxx.o  -o cmTryCompileExec3050486818 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1194,15 +1194,15 @@ int main()
 Performing C++ SOURCE FILE Test HAVE_CLOCK_MONOTONIC_COARSE succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2370799405/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2370799405.dir/build.make CMakeFiles/cmTryCompileExec2370799405.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2296774671/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2296774671.dir/build.make CMakeFiles/cmTryCompileExec2296774671.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2370799405.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_CLOCK_MONOTONIC_COARSE   -o CMakeFiles/cmTryCompileExec2370799405.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec2370799405
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2370799405.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_CLOCK_MONOTONIC_COARSE    CMakeFiles/cmTryCompileExec2370799405.dir/src.cxx.o  -o cmTryCompileExec2370799405 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec2296774671.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_CLOCK_MONOTONIC_COARSE   -o CMakeFiles/cmTryCompileExec2296774671.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2296774671
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2296774671.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_CLOCK_MONOTONIC_COARSE    CMakeFiles/cmTryCompileExec2296774671.dir/src.cxx.o  -o cmTryCompileExec2296774671 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1223,15 +1223,15 @@ int main()
 Performing C++ SOURCE FILE Test HAVE_CLOCK_THREAD_CPUTIME succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2026378455/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2026378455.dir/build.make CMakeFiles/cmTryCompileExec2026378455.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2934901628/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2934901628.dir/build.make CMakeFiles/cmTryCompileExec2934901628.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2026378455.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_CLOCK_THREAD_CPUTIME   -o CMakeFiles/cmTryCompileExec2026378455.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec2026378455
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2026378455.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_CLOCK_THREAD_CPUTIME    CMakeFiles/cmTryCompileExec2026378455.dir/src.cxx.o  -o cmTryCompileExec2026378455 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec2934901628.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_CLOCK_THREAD_CPUTIME   -o CMakeFiles/cmTryCompileExec2934901628.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2934901628
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2934901628.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_CLOCK_THREAD_CPUTIME    CMakeFiles/cmTryCompileExec2934901628.dir/src.cxx.o  -o cmTryCompileExec2934901628 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1252,15 +1252,15 @@ int main()
 Performing C++ SOURCE FILE Test HAVE_MMAP_DEV_ZERO succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1930447434/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1930447434.dir/build.make CMakeFiles/cmTryCompileExec1930447434.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec420962079/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec420962079.dir/build.make CMakeFiles/cmTryCompileExec420962079.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1930447434.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_MMAP_DEV_ZERO   -o CMakeFiles/cmTryCompileExec1930447434.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec1930447434
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1930447434.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_MMAP_DEV_ZERO    CMakeFiles/cmTryCompileExec1930447434.dir/src.cxx.o  -o cmTryCompileExec1930447434 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec420962079.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_MMAP_DEV_ZERO   -o CMakeFiles/cmTryCompileExec420962079.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec420962079
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec420962079.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_MMAP_DEV_ZERO    CMakeFiles/cmTryCompileExec420962079.dir/src.cxx.o  -o cmTryCompileExec420962079 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1288,15 +1288,15 @@ int main(void) {
 Performing C++ SOURCE FILE Test HAVE_COMPATIBLE_ACOS succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec271851912/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec271851912.dir/build.make CMakeFiles/cmTryCompileExec271851912.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1318867292/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1318867292.dir/build.make CMakeFiles/cmTryCompileExec1318867292.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec271851912.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_ACOS   -o CMakeFiles/cmTryCompileExec271851912.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec271851912
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec271851912.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_ACOS    CMakeFiles/cmTryCompileExec271851912.dir/src.cxx.o  -o cmTryCompileExec271851912 -rdynamic -lm 
+Building CXX object CMakeFiles/cmTryCompileExec1318867292.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_ACOS   -o CMakeFiles/cmTryCompileExec1318867292.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1318867292
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1318867292.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_ACOS    CMakeFiles/cmTryCompileExec1318867292.dir/src.cxx.o  -o cmTryCompileExec1318867292 -rdynamic -lm 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1314,15 +1314,15 @@ int main(void) {
 Performing C++ SOURCE FILE Test HAVE_COMPATIBLE_ASIN succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2068886474/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2068886474.dir/build.make CMakeFiles/cmTryCompileExec2068886474.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3190363161/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3190363161.dir/build.make CMakeFiles/cmTryCompileExec3190363161.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2068886474.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_ASIN   -o CMakeFiles/cmTryCompileExec2068886474.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec2068886474
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2068886474.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_ASIN    CMakeFiles/cmTryCompileExec2068886474.dir/src.cxx.o  -o cmTryCompileExec2068886474 -rdynamic -lm 
+Building CXX object CMakeFiles/cmTryCompileExec3190363161.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_ASIN   -o CMakeFiles/cmTryCompileExec3190363161.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3190363161
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3190363161.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_ASIN    CMakeFiles/cmTryCompileExec3190363161.dir/src.cxx.o  -o cmTryCompileExec3190363161 -rdynamic -lm 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1340,15 +1340,15 @@ int main(void) {
 Performing C++ SOURCE FILE Test HAVE_VALID_NEGATIVE_INF_POW succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1416584975/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1416584975.dir/build.make CMakeFiles/cmTryCompileExec1416584975.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec4021164790/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4021164790.dir/build.make CMakeFiles/cmTryCompileExec4021164790.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1416584975.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_VALID_NEGATIVE_INF_POW   -o CMakeFiles/cmTryCompileExec1416584975.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec1416584975
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1416584975.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_VALID_NEGATIVE_INF_POW    CMakeFiles/cmTryCompileExec1416584975.dir/src.cxx.o  -o cmTryCompileExec1416584975 -rdynamic -lm 
+Building CXX object CMakeFiles/cmTryCompileExec4021164790.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_VALID_NEGATIVE_INF_POW   -o CMakeFiles/cmTryCompileExec4021164790.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4021164790
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4021164790.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_VALID_NEGATIVE_INF_POW    CMakeFiles/cmTryCompileExec4021164790.dir/src.cxx.o  -o cmTryCompileExec4021164790 -rdynamic -lm 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1369,15 +1369,15 @@ int main(int argc, char **argv) {
 Performing C++ SOURCE FILE Test HAVE_VALID_POSITIVE_INF_POW succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2640985546/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2640985546.dir/build.make CMakeFiles/cmTryCompileExec2640985546.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1993163460/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1993163460.dir/build.make CMakeFiles/cmTryCompileExec1993163460.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2640985546.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_VALID_POSITIVE_INF_POW   -o CMakeFiles/cmTryCompileExec2640985546.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec2640985546
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2640985546.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_VALID_POSITIVE_INF_POW    CMakeFiles/cmTryCompileExec2640985546.dir/src.cxx.o  -o cmTryCompileExec2640985546 -rdynamic -lm 
+Building CXX object CMakeFiles/cmTryCompileExec1993163460.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_VALID_POSITIVE_INF_POW   -o CMakeFiles/cmTryCompileExec1993163460.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1993163460
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1993163460.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_VALID_POSITIVE_INF_POW    CMakeFiles/cmTryCompileExec1993163460.dir/src.cxx.o  -o cmTryCompileExec1993163460 -rdynamic -lm 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1398,15 +1398,15 @@ int main(int argc, char **argv) {
 Performing C++ SOURCE FILE Test HAVE_COMPATIBLE_ATAN2 succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2538758052/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2538758052.dir/build.make CMakeFiles/cmTryCompileExec2538758052.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2111207466/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2111207466.dir/build.make CMakeFiles/cmTryCompileExec2111207466.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2538758052.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_ATAN2   -o CMakeFiles/cmTryCompileExec2538758052.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec2538758052
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2538758052.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_ATAN2    CMakeFiles/cmTryCompileExec2538758052.dir/src.cxx.o  -o cmTryCompileExec2538758052 -rdynamic -lm 
+Building CXX object CMakeFiles/cmTryCompileExec2111207466.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_ATAN2   -o CMakeFiles/cmTryCompileExec2111207466.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2111207466
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2111207466.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_ATAN2    CMakeFiles/cmTryCompileExec2111207466.dir/src.cxx.o  -o cmTryCompileExec2111207466 -rdynamic -lm 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1444,15 +1444,15 @@ int main(void) {
 Performing C++ SOURCE FILE Test HAVE_COMPATIBLE_LOG succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec777820195/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec777820195.dir/build.make CMakeFiles/cmTryCompileExec777820195.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2860616156/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2860616156.dir/build.make CMakeFiles/cmTryCompileExec2860616156.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec777820195.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_LOG   -o CMakeFiles/cmTryCompileExec777820195.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec777820195
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec777820195.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_LOG    CMakeFiles/cmTryCompileExec777820195.dir/src.cxx.o  -o cmTryCompileExec777820195 -rdynamic -lm 
+Building CXX object CMakeFiles/cmTryCompileExec2860616156.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_LOG   -o CMakeFiles/cmTryCompileExec2860616156.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2860616156
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2860616156.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_LOG    CMakeFiles/cmTryCompileExec2860616156.dir/src.cxx.o  -o cmTryCompileExec2860616156 -rdynamic -lm 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1470,15 +1470,15 @@ int main(void) {
 Performing C++ SOURCE FILE Test HAVE_COMPATIBLE_LOG10 succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2456737924/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2456737924.dir/build.make CMakeFiles/cmTryCompileExec2456737924.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2550294230/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2550294230.dir/build.make CMakeFiles/cmTryCompileExec2550294230.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2456737924.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_LOG10   -o CMakeFiles/cmTryCompileExec2456737924.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec2456737924
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2456737924.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_LOG10    CMakeFiles/cmTryCompileExec2456737924.dir/src.cxx.o  -o cmTryCompileExec2456737924 -rdynamic -lm 
+Building CXX object CMakeFiles/cmTryCompileExec2550294230.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_LOG10   -o CMakeFiles/cmTryCompileExec2550294230.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2550294230
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2550294230.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_LOG10    CMakeFiles/cmTryCompileExec2550294230.dir/src.cxx.o  -o cmTryCompileExec2550294230 -rdynamic -lm 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1496,16 +1496,16 @@ int main(void) {
 Performing C++ SOURCE FILE Test UNGETC_NOT_RETURN_EOF succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec4078159304/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4078159304.dir/build.make CMakeFiles/cmTryCompileExec4078159304.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec4127804185/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4127804185.dir/build.make CMakeFiles/cmTryCompileExec4127804185.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec4078159304.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DUNGETC_NOT_RETURN_EOF   -o CMakeFiles/cmTryCompileExec4078159304.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec4078159304
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4078159304.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DUNGETC_NOT_RETURN_EOF    CMakeFiles/cmTryCompileExec4078159304.dir/src.cxx.o  -o cmTryCompileExec4078159304 -rdynamic 
-CMakeFiles/cmTryCompileExec4078159304.dir/src.cxx.o: In function `main':
+Building CXX object CMakeFiles/cmTryCompileExec4127804185.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DUNGETC_NOT_RETURN_EOF   -o CMakeFiles/cmTryCompileExec4127804185.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4127804185
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4127804185.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DUNGETC_NOT_RETURN_EOF    CMakeFiles/cmTryCompileExec4127804185.dir/src.cxx.o  -o cmTryCompileExec4127804185 -rdynamic 
+CMakeFiles/cmTryCompileExec4127804185.dir/src.cxx.o: In function `main':
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx:(.text+0x33): warning: the use of `tempnam' is dangerous, better use `mkstemp'
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
@@ -1540,15 +1540,15 @@ int main(void)
 Performing C++ SOURCE FILE Test HAS_POSIX_SEMAPHORES succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1750005399/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1750005399.dir/build.make CMakeFiles/cmTryCompileExec1750005399.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2456177974/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2456177974.dir/build.make CMakeFiles/cmTryCompileExec2456177974.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1750005399.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAS_POSIX_SEMAPHORES   -o CMakeFiles/cmTryCompileExec1750005399.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec1750005399
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1750005399.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAS_POSIX_SEMAPHORES    CMakeFiles/cmTryCompileExec1750005399.dir/src.cxx.o  -o cmTryCompileExec1750005399 -rdynamic -lpthread 
+Building CXX object CMakeFiles/cmTryCompileExec2456177974.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAS_POSIX_SEMAPHORES   -o CMakeFiles/cmTryCompileExec2456177974.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2456177974
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2456177974.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAS_POSIX_SEMAPHORES    CMakeFiles/cmTryCompileExec2456177974.dir/src.cxx.o  -o cmTryCompileExec2456177974 -rdynamic -lpthread 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1568,15 +1568,15 @@ int main() {
 Performing C++ SOURCE FILE Test GETPWUID_R_SETS_ERRNO succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3787716024/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3787716024.dir/build.make CMakeFiles/cmTryCompileExec3787716024.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec308425168/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec308425168.dir/build.make CMakeFiles/cmTryCompileExec308425168.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3787716024.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DGETPWUID_R_SETS_ERRNO   -o CMakeFiles/cmTryCompileExec3787716024.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec3787716024
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3787716024.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DGETPWUID_R_SETS_ERRNO    CMakeFiles/cmTryCompileExec3787716024.dir/src.cxx.o  -o cmTryCompileExec3787716024 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec308425168.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DGETPWUID_R_SETS_ERRNO   -o CMakeFiles/cmTryCompileExec308425168.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec308425168
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec308425168.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DGETPWUID_R_SETS_ERRNO    CMakeFiles/cmTryCompileExec308425168.dir/src.cxx.o  -o cmTryCompileExec308425168 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1612,15 +1612,15 @@ int main(void)
 Performing C++ SOURCE FILE Test UNWIND_CONTEXT_IS_UCONTEXT_T succeded with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec4063790270/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4063790270.dir/build.make CMakeFiles/cmTryCompileExec4063790270.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2243553352/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2243553352.dir/build.make CMakeFiles/cmTryCompileExec2243553352.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec4063790270.dir/src.cxx.o
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DUNWIND_CONTEXT_IS_UCONTEXT_T   -o CMakeFiles/cmTryCompileExec4063790270.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec4063790270
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4063790270.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DUNWIND_CONTEXT_IS_UCONTEXT_T    CMakeFiles/cmTryCompileExec4063790270.dir/src.cxx.o  -o cmTryCompileExec4063790270 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec2243553352.dir/src.cxx.o
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DUNWIND_CONTEXT_IS_UCONTEXT_T   -o CMakeFiles/cmTryCompileExec2243553352.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2243553352
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2243553352.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DUNWIND_CONTEXT_IS_UCONTEXT_T    CMakeFiles/cmTryCompileExec2243553352.dir/src.cxx.o  -o cmTryCompileExec2243553352 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Source file was:

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../src/pal/inc/unixasmmacros.inc
+unixasmmacrosamd64.inc
+../../../src/pal/inc/unixasmmacrosamd64.inc
+unixasmmacrosarm.inc
+../../../src/pal/inc/unixasmmacrosarm.inc
+unixasmmacrosarm64.inc
+../../../src/pal/inc/unixasmmacrosarm64.inc
+
+../../../src/pal/inc/unixasmmacrosamd64.inc
+
+../../../src/pal/inc/unixasmmacrosarm.inc
+
+../../../src/pal/inc/unixasmmacrosarm64.inc
+
+/root/git/coreclr/src/pal/src/arch/i386/asmconstants.h
+
+/root/git/coreclr/src/pal/src/arch/i386/context2.S
+unixasmmacros.inc
+/root/git/coreclr/src/pal/src/arch/i386/unixasmmacros.inc
+asmconstants.h
+/root/git/coreclr/src/pal/src/arch/i386/asmconstants.h
+
+/root/git/coreclr/src/pal/src/arch/i386/debugbreak.S
+unixasmmacros.inc
+/root/git/coreclr/src/pal/src/arch/i386/unixasmmacros.inc
+
+/root/git/coreclr/src/pal/src/arch/i386/exceptionhelper.S
+unixasmmacros.inc
+/root/git/coreclr/src/pal/src/arch/i386/unixasmmacros.inc
+asmconstants.h
+/root/git/coreclr/src/pal/src/arch/i386/asmconstants.h
+
