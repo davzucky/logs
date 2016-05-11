@@ -153,30 +153,6 @@ System.Globalization.Native/fast:
 	cd /root/git/coreclr/bin/obj/Linux.x64.Debug && $(MAKE) -f src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/build.make src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/build
 .PHONY : System.Globalization.Native/fast
 
-__/__/__/version.o: __/__/__/version.cpp.o
-.PHONY : __/__/__/version.o
-
-# target to build an object file
-__/__/__/version.cpp.o:
-	cd /root/git/coreclr/bin/obj/Linux.x64.Debug && $(MAKE) -f src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/build.make src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o
-.PHONY : __/__/__/version.cpp.o
-
-__/__/__/version.i: __/__/__/version.cpp.i
-.PHONY : __/__/__/version.i
-
-# target to preprocess a source file
-__/__/__/version.cpp.i:
-	cd /root/git/coreclr/bin/obj/Linux.x64.Debug && $(MAKE) -f src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/build.make src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.i
-.PHONY : __/__/__/version.cpp.i
-
-__/__/__/version.s: __/__/__/version.cpp.s
-.PHONY : __/__/__/version.s
-
-# target to generate assembly for a file
-__/__/__/version.cpp.s:
-	cd /root/git/coreclr/bin/obj/Linux.x64.Debug && $(MAKE) -f src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/build.make src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.s
-.PHONY : __/__/__/version.cpp.s
-
 calendarData.o: calendarData.cpp.o
 .PHONY : calendarData.o
 
@@ -406,9 +382,6 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... __/__/__/version.o"
-	@echo "... __/__/__/version.i"
-	@echo "... __/__/__/version.s"
 	@echo "... calendarData.o"
 	@echo "... calendarData.i"
 	@echo "... calendarData.s"

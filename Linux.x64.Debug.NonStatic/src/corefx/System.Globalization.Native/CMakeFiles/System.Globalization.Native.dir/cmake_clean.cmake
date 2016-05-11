@@ -8,7 +8,6 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/System.Globalization.Native.dir/localeStringData.cpp.o"
   "CMakeFiles/System.Globalization.Native.dir/normalization.cpp.o"
   "CMakeFiles/System.Globalization.Native.dir/timeZoneInfo.cpp.o"
-  "CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o"
   "System.Globalization.Native.pdb"
   "System.Globalization.Native.so"
 )

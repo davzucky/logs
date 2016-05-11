@@ -256,29 +256,6 @@ src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.di
 
 src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/timeZoneInfo.cpp.o.provides.build: src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/timeZoneInfo.cpp.o
 
-src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o: src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/flags.make
-src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o: version.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles $(CMAKE_PROGRESS_10)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o"
-	cd /root/git/coreclr/bin/obj/Linux.x64.Debug/src/corefx/System.Globalization.Native && /usr/bin/clang++-3.5   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/version.cpp
-
-src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.i"
-	cd /root/git/coreclr/bin/obj/Linux.x64.Debug/src/corefx/System.Globalization.Native && /usr/bin/clang++-3.5  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/git/coreclr/bin/obj/Linux.x64.Debug/version.cpp > CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.i
-
-src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.s"
-	cd /root/git/coreclr/bin/obj/Linux.x64.Debug/src/corefx/System.Globalization.Native && /usr/bin/clang++-3.5  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/git/coreclr/bin/obj/Linux.x64.Debug/version.cpp -o CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.s
-
-src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o.requires:
-.PHONY : src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o.requires
-
-src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o.provides: src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o.requires
-	$(MAKE) -f src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/build.make src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o.provides.build
-.PHONY : src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o.provides
-
-src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o.provides.build: src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o
-
 # Object files for target System.Globalization.Native
 System_Globalization_Native_OBJECTS = \
 "CMakeFiles/System.Globalization.Native.dir/calendarData.cpp.o" \
@@ -289,8 +266,7 @@ System_Globalization_Native_OBJECTS = \
 "CMakeFiles/System.Globalization.Native.dir/localeNumberData.cpp.o" \
 "CMakeFiles/System.Globalization.Native.dir/localeStringData.cpp.o" \
 "CMakeFiles/System.Globalization.Native.dir/normalization.cpp.o" \
-"CMakeFiles/System.Globalization.Native.dir/timeZoneInfo.cpp.o" \
-"CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o"
+"CMakeFiles/System.Globalization.Native.dir/timeZoneInfo.cpp.o"
 
 # External object files for target System.Globalization.Native
 System_Globalization_Native_EXTERNAL_OBJECTS =
@@ -304,7 +280,6 @@ src/corefx/System.Globalization.Native/System.Globalization.Native.so: src/coref
 src/corefx/System.Globalization.Native/System.Globalization.Native.so: src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/localeStringData.cpp.o
 src/corefx/System.Globalization.Native/System.Globalization.Native.so: src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/normalization.cpp.o
 src/corefx/System.Globalization.Native/System.Globalization.Native.so: src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/timeZoneInfo.cpp.o
-src/corefx/System.Globalization.Native/System.Globalization.Native.so: src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o
 src/corefx/System.Globalization.Native/System.Globalization.Native.so: src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/build.make
 src/corefx/System.Globalization.Native/System.Globalization.Native.so: /usr/lib/x86_64-linux-gnu/libicuuc.so
 src/corefx/System.Globalization.Native/System.Globalization.Native.so: /usr/lib/x86_64-linux-gnu/libicui18n.so
@@ -325,7 +300,6 @@ src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.di
 src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/requires: src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/localeStringData.cpp.o.requires
 src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/requires: src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/normalization.cpp.o.requires
 src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/requires: src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/timeZoneInfo.cpp.o.requires
-src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/requires: src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o.requires
 .PHONY : src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/requires
 
 src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/clean:

@@ -42,7 +42,6 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/root/git/coreclr/bin/obj/Linux.x64.Debug/src/pal/prebuilt/inc/cmake_install.cmake")
   INCLUDE("/root/git/coreclr/bin/obj/Linux.x64.Debug/src/debug/debug-pal/cmake_install.cmake")
   INCLUDE("/root/git/coreclr/bin/obj/Linux.x64.Debug/src/cmake_install.cmake")
-  INCLUDE("/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

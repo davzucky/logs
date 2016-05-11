@@ -17,20 +17,8 @@
 //Path to a program.
 AWK:FILEPATH=/usr/bin/awk
 
-//Value Computed by CMake
-BestFitMappingNative_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Interop/BestFitMapping
-
-//Dependencies for target
-BestFitMappingNative_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-BestFitMappingNative_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Interop/BestFitMapping
-
-//Dependencies for target
-BoolNative_LIB_DEPENDS:STATIC=
-
 //No help, variable specified on the command line.
-CLR_CMAKE_BUILD_TESTS:UNINITIALIZED=ON
+CLR_CMAKE_BUILD_TESTS:UNINITIALIZED=OFF
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/llvm-ar-3.5
@@ -239,56 +227,11 @@ CoreCLR_SOURCE_DIR:STATIC=/root/git/coreclr
 //Enable building the SOS plugin for LLDB.
 ENABLE_LLDBPLUGIN:BOOL=1
 
-//Value Computed by CMake
-ForeignThreadExceptionsNative_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Exceptions/ForeignThread
-
-//Dependencies for target
-ForeignThreadExceptionsNative_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-ForeignThreadExceptionsNative_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Exceptions/ForeignThread
-
-//Value Computed by CMake
-FromNativePaths_lib_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Loader/NativeLibs
-
-//Dependencies for target
-FromNativePaths_lib_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-FromNativePaths_lib_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Loader/NativeLibs
-
-//Value Computed by CMake
-FuncPtrAsDelegateParamNative_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Interop/FuncPtrAsDelegateParam
-
-//Dependencies for target
-FuncPtrAsDelegateParamNative_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-FuncPtrAsDelegateParamNative_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Interop/FuncPtrAsDelegateParam
-
-//Value Computed by CMake
-FunctionPointerNative_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Interop/MarshalAPI/FunctionPointer
-
-//Dependencies for target
-FunctionPointerNative_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-FunctionPointerNative_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Interop/MarshalAPI/FunctionPointer
-
 //Path to a library.
 ICUI18N:FILEPATH=/usr/lib/x86_64-linux-gnu/libicui18n.a
 
 //Path to a library.
 ICUUC:FILEPATH=/usr/lib/x86_64-linux-gnu/libicuuc.a
-
-//Value Computed by CMake
-IUnknownNative_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Interop/MarshalAPI/IUnknown
-
-//Dependencies for target
-IUnknownNative_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-IUnknownNative_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Interop/MarshalAPI/IUnknown
 
 //Path to a library.
 LLDB:FILEPATH=/usr/lib/x86_64-linux-gnu/liblldb-3.6.so
@@ -296,125 +239,14 @@ LLDB:FILEPATH=/usr/lib/x86_64-linux-gnu/liblldb-3.6.so
 //Path to a file.
 LLDB_H:PATH=/usr/lib/llvm-3.6/include
 
-//Value Computed by CMake
-LPSTRTestNative_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Interop/StringMarshalling/LPSTR
-
-//Dependencies for target
-LPSTRTestNative_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-LPSTRTestNative_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Interop/StringMarshalling/LPSTR
-
-//Value Computed by CMake
-LPTSTRTestNative_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Interop/StringMarshalling/LPTSTR
-
-//Dependencies for target
-LPTSTRTestNative_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-LPTSTRTestNative_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Interop/StringMarshalling/LPTSTR
-
-//Value Computed by CMake
-MarshalArrayByValNative_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Interop/ArrayMarshalling/ByValArray
-
-//Dependencies for target
-MarshalArrayByValNative_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-MarshalArrayByValNative_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Interop/ArrayMarshalling/ByValArray
-
-//Value Computed by CMake
-MarshalBoolArrayNative_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Interop/ArrayMarshalling/BoolArray
-
-//Dependencies for target
-MarshalBoolArrayNative_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-MarshalBoolArrayNative_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Interop/ArrayMarshalling/BoolArray
-
-//Value Computed by CMake
-MarshalEnumNative_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Interop/PrimitiveMarshalling/EnumMarshalling
-
-//Dependencies for target
-MarshalEnumNative_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-MarshalEnumNative_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Interop/PrimitiveMarshalling/EnumMarshalling
-
-//Value Computed by CMake
-MarshalStructAsParam_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Interop/StructMarshalling/PInvoke
-
-//Dependencies for target
-MarshalStructAsParam_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-MarshalStructAsParam_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Interop/StructMarshalling/PInvoke
-
-//Value Computed by CMake
-NativeBool_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Interop/PrimitiveMarshalling/Bool
-
-//Value Computed by CMake
-NativeBool_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Interop/PrimitiveMarshalling/Bool
-
-//Value Computed by CMake
-NativeCallableDll_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Interop/NativeCallable
-
-//Dependencies for target
-NativeCallableDll_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-NativeCallableDll_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Interop/NativeCallable
-
 //Path to a program.
 OBJCOPY:FILEPATH=/usr/bin/objcopy
-
-//Value Computed by CMake
-PALTESTSUITE_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/src/pal/tests/palsuite
-
-//Value Computed by CMake
-PALTESTSUITE_SOURCE_DIR:STATIC=/root/git/coreclr/src/pal/tests/palsuite
 
 //Path to a program.
 PYTHON:FILEPATH=/usr/bin/python
 
 //Require building the SOS plugin for LLDB.
 REQUIRE_LLDBPLUGIN:BOOL=1
-
-//Value Computed by CMake
-RefCharArrayNative_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Interop/RefCharArray
-
-//Dependencies for target
-RefCharArrayNative_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-RefCharArrayNative_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Interop/RefCharArray
-
-//Value Computed by CMake
-RefIntNative_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Interop/RefInt
-
-//Dependencies for target
-RefIntNative_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-RefIntNative_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Interop/RefInt
-
-//Value Computed by CMake
-SimpleStructNative_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Interop/SimpleStruct
-
-//Dependencies for target
-SimpleStructNative_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-SimpleStructNative_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Interop/SimpleStruct
-
-//Value Computed by CMake
-StructABILib_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/JIT/Directed/StructABI
-
-//Dependencies for target
-StructABILib_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-StructABILib_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/JIT/Directed/StructABI
 
 //Value Computed by CMake
 System.Globalization.Native_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/src/corefx/System.Globalization.Native
@@ -424,15 +256,6 @@ System.Globalization.Native_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu
 
 //Value Computed by CMake
 System.Globalization.Native_SOURCE_DIR:STATIC=/root/git/coreclr/src/corefx/System.Globalization.Native
-
-//Value Computed by CMake
-UIntPtrNative_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/Interop/PrimitiveMarshalling/UIntPtr
-
-//Dependencies for target
-UIntPtrNative_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-UIntPtrNative_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/Interop/PrimitiveMarshalling/UIntPtr
 
 //Path to a library.
 UNWIND:FILEPATH=/usr/lib/x86_64-linux-gnu/libunwind.so
@@ -446,26 +269,11 @@ UNWIND_GENERIC:FILEPATH=/usr/lib/x86_64-linux-gnu/libunwind-generic.so
 //Path to a file.
 UTYPES_H:PATH=/usr/include/x86_64-linux-gnu
 
-//Value Computed by CMake
-Vector3TestNative_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/JIT/SIMD
-
-//Dependencies for target
-Vector3TestNative_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-Vector3TestNative_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/JIT/SIMD
-
 //Path to LLDB headers
 WITH_LLDB_INCLUDES:PATH=
 
 //Path to LLDB libraries
 WITH_LLDB_LIBS:PATH=
-
-//Value Computed by CMake
-b108129_test2_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/JIT/Regression/VS-ia64-JIT/V1.2-M02/b108129
-
-//Value Computed by CMake
-b108129_test2_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/JIT/Regression/VS-ia64-JIT/V1.2-M02/b108129
 
 //Dependencies for target
 bcltype_LIB_DEPENDS:STATIC=
@@ -567,24 +375,6 @@ gcinfo_LIB_DEPENDS:STATIC=
 gcinfo_crossgen_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
-hfa_interop_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/JIT/jit64/hfa/main/dll
-
-//Value Computed by CMake
-hfa_interop_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/JIT/jit64/hfa/main/dll
-
-//Dependencies for target
-hfa_nested_f32_native_cpp_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-hfa_nested_f64_native_cpp_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-hfa_simple_f32_native_cpp_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-hfa_simple_f64_native_cpp_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
 ilasm_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/src/ilasm
 
 //Value Computed by CMake
@@ -598,21 +388,6 @@ ildasm_SOURCE_DIR:STATIC=/root/git/coreclr/src/ildasm/exe
 
 //Dependencies for target
 ildbsymlib_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-jitstructtests_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/JIT/Methodical/structs/systemvbringup
-
-//Value Computed by CMake
-jitstructtests_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/JIT/Methodical/structs/systemvbringup
-
-//Dependencies for target
-jitstructtests_lib_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-mcc_native_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/JIT/jit64/mcc/interop
-
-//Value Computed by CMake
-mcc_native_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/JIT/jit64/mcc/interop
 
 //Dependencies for target
 mdcompiler-dbi_LIB_DEPENDS:STATIC=
@@ -662,9 +437,6 @@ mdruntimerw_dac_LIB_DEPENDS:STATIC=
 //Dependencies for target
 mdruntimerw_wks_LIB_DEPENDS:STATIC=
 
-//Dependencies for target
-mirror_LIB_DEPENDS:STATIC=
-
 //Dependencies for the target
 mscordaccore_LIB_DEPENDS:STATIC=general;-Wl,--start-group;general;cee_dac;general;cordbee_dac;general;corguids;general;daccess;general;dbgutil;general;mdcompiler_dac;general;mdhotdata_dac;general;mdruntime_dac;general;mdruntimerw_dac;general;strongname_dac;general;utilcode_dac;general;unwinder_dac;general;-Wl,--end-group;general;mscorrc_debug;general;coreclrpal;general;palrt;
 
@@ -686,48 +458,6 @@ mscorpe_SOURCE_DIR:STATIC=/root/git/coreclr/src/dlls/mscorpe
 //Dependencies for target
 mscorrc_debug_LIB_DEPENDS:STATIC=
 
-//Dependencies for target
-native_i0c_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-native_i0s_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-native_i1c_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-native_i1s_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-native_i3c_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-native_i3s_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-native_i5c_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-native_i5s_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-native_i6c_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-native_i6s_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-native_i7c_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-native_i7s_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-native_i8c_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-native_i8s_LIB_DEPENDS:STATIC=
-
 //Value Computed by CMake
 nativeresourcestring_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/src/nativeresources
 
@@ -738,12 +468,6 @@ nativeresourcestring_LIB_DEPENDS:STATIC=
 nativeresourcestring_SOURCE_DIR:STATIC=/root/git/coreclr/src/nativeresources
 
 //Value Computed by CMake
-object_pin_mirror_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/tests/src/JIT/Directed/pinning/object-pin
-
-//Value Computed by CMake
-object_pin_mirror_SOURCE_DIR:STATIC=/root/git/coreclr/tests/src/JIT/Directed/pinning/object-pin
-
-//Value Computed by CMake
 palexmpl_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/src/pal/src/examples
 
 //Value Computed by CMake
@@ -751,12 +475,6 @@ palexmpl_SOURCE_DIR:STATIC=/root/git/coreclr/src/pal/src/examples
 
 //Dependencies for target
 palrt_LIB_DEPENDS:STATIC=
-
-//Dependencies for the target
-paltest_pal_sxs_test1_dll1_LIB_DEPENDS:STATIC=general;pthread;general;m;general;coreclrpal;
-
-//Dependencies for the target
-paltest_pal_sxs_test1_dll2_LIB_DEPENDS:STATIC=general;pthread;general;m;general;coreclrpal;
 
 //Value Computed by CMake
 ryujit_BINARY_DIR:STATIC=/root/git/coreclr/bin/obj/Linux.x64.Debug/src/jit/standalone
@@ -784,9 +502,6 @@ strongname_dac_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
 strongname_wks_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-test2_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
 tracepointprovider_LIB_DEPENDS:STATIC=
@@ -953,7 +668,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=1422
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=102
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

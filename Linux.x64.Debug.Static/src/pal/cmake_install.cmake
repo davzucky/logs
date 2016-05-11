@@ -35,7 +35,6 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/root/git/coreclr/bin/obj/Linux.x64.Debug/src/pal/src/cmake_install.cmake")
-  INCLUDE("/root/git/coreclr/bin/obj/Linux.x64.Debug/src/pal/tests/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

@@ -1,19 +1,19 @@
 Determining if the ucol_setMaxVariable exist failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2236589985/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2236589985.dir/build.make CMakeFiles/cmTryCompileExec2236589985.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1194956240/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1194956240.dir/build.make CMakeFiles/cmTryCompileExec1194956240.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2236589985.dir/CheckSymbolExists.c.o
-/usr/bin/clang-3.5   -Wall -std=c11  -I/usr/include/x86_64-linux-gnu -I/usr/local/opt/icu4c/include    -o CMakeFiles/cmTryCompileExec2236589985.dir/CheckSymbolExists.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTryCompileExec1194956240.dir/CheckSymbolExists.c.o
+/usr/bin/clang-3.5   -Wall -std=c11  -I/usr/include/x86_64-linux-gnu -I/usr/local/opt/icu4c/include    -o CMakeFiles/cmTryCompileExec1194956240.dir/CheckSymbolExists.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'ucol_setMaxVariable'
   return ((int*)(&ucol_setMaxVariable))[argc];
                   ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec2236589985.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTryCompileExec2236589985/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec1194956240.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTryCompileExec1194956240/fast] Error 2
 
 File /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -33,19 +33,19 @@ int main(int argc, char** argv)
 Determining if files ieeefp.h exist failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2867850505/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2867850505.dir/build.make CMakeFiles/cmTryCompileExec2867850505.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1061568508/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1061568508.dir/build.make CMakeFiles/cmTryCompileExec1061568508.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2867850505.dir/CheckIncludeFiles.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec2867850505.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Building C object CMakeFiles/cmTryCompileExec1061568508.dir/CheckIncludeFiles.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec1061568508.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'ieeefp.h' file not found
 #include <ieeefp.h>
          ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec2867850505.dir/CheckIncludeFiles.c.o] Error 1
-make: *** [cmTryCompileExec2867850505/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec1061568508.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec1061568508/fast] Error 2
 
 Source:
 /* */
@@ -57,19 +57,19 @@ int main(){return 0;}
 Determining if files sys/vmparam.h exist failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3366424932/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3366424932.dir/build.make CMakeFiles/cmTryCompileExec3366424932.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3086571661/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3086571661.dir/build.make CMakeFiles/cmTryCompileExec3086571661.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3366424932.dir/CheckIncludeFiles.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec3366424932.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Building C object CMakeFiles/cmTryCompileExec3086571661.dir/CheckIncludeFiles.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec3086571661.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'sys/vmparam.h' file not found
 #include <sys/vmparam.h>
          ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec3366424932.dir/CheckIncludeFiles.c.o] Error 1
-make: *** [cmTryCompileExec3366424932/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec3086571661.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec3086571661/fast] Error 2
 
 Source:
 /* */
@@ -81,19 +81,19 @@ int main(){return 0;}
 Determining if files mach/vm_types.h exist failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3500594174/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3500594174.dir/build.make CMakeFiles/cmTryCompileExec3500594174.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1936227593/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1936227593.dir/build.make CMakeFiles/cmTryCompileExec1936227593.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3500594174.dir/CheckIncludeFiles.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec3500594174.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Building C object CMakeFiles/cmTryCompileExec1936227593.dir/CheckIncludeFiles.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec1936227593.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'mach/vm_types.h' file not found
 #include <mach/vm_types.h>
          ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec3500594174.dir/CheckIncludeFiles.c.o] Error 1
-make: *** [cmTryCompileExec3500594174/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec1936227593.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec1936227593/fast] Error 2
 
 Source:
 /* */
@@ -105,19 +105,19 @@ int main(){return 0;}
 Determining if files mach/vm_param.h exist failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec816944222/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec816944222.dir/build.make CMakeFiles/cmTryCompileExec816944222.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec502254625/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec502254625.dir/build.make CMakeFiles/cmTryCompileExec502254625.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec816944222.dir/CheckIncludeFiles.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec816944222.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Building C object CMakeFiles/cmTryCompileExec502254625.dir/CheckIncludeFiles.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec502254625.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'mach/vm_param.h' file not found
 #include <mach/vm_param.h>
          ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec816944222.dir/CheckIncludeFiles.c.o] Error 1
-make: *** [cmTryCompileExec816944222/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec502254625.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec502254625/fast] Error 2
 
 Source:
 /* */
@@ -129,19 +129,19 @@ int main(){return 0;}
 Determining if files sys/param.h;sys/types.h;machine/npx.h exist failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1890148148/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1890148148.dir/build.make CMakeFiles/cmTryCompileExec1890148148.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1186790604/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1186790604.dir/build.make CMakeFiles/cmTryCompileExec1186790604.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1890148148.dir/CheckIncludeFiles.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec1890148148.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Building C object CMakeFiles/cmTryCompileExec1186790604.dir/CheckIncludeFiles.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec1186790604.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:4:10: fatal error: 'machine/npx.h' file not found
 #include <machine/npx.h>
          ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec1890148148.dir/CheckIncludeFiles.c.o] Error 1
-make: *** [cmTryCompileExec1890148148/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec1186790604.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec1186790604/fast] Error 2
 
 Source:
 /* */
@@ -155,19 +155,19 @@ int main(){return 0;}
 Determining if files sys/param.h;sys/cdefs.h;machine/reg.h exist failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1633932408/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1633932408.dir/build.make CMakeFiles/cmTryCompileExec1633932408.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec777323141/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec777323141.dir/build.make CMakeFiles/cmTryCompileExec777323141.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1633932408.dir/CheckIncludeFiles.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec1633932408.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Building C object CMakeFiles/cmTryCompileExec777323141.dir/CheckIncludeFiles.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec777323141.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:4:10: fatal error: 'machine/reg.h' file not found
 #include <machine/reg.h>
          ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec1633932408.dir/CheckIncludeFiles.c.o] Error 1
-make: *** [cmTryCompileExec1633932408/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec777323141.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec777323141/fast] Error 2
 
 Source:
 /* */
@@ -181,19 +181,19 @@ int main(){return 0;}
 Determining if files machine/vmparam.h exist failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2680029125/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2680029125.dir/build.make CMakeFiles/cmTryCompileExec2680029125.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec4035277838/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4035277838.dir/build.make CMakeFiles/cmTryCompileExec4035277838.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2680029125.dir/CheckIncludeFiles.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec2680029125.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Building C object CMakeFiles/cmTryCompileExec4035277838.dir/CheckIncludeFiles.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec4035277838.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'machine/vmparam.h' file not found
 #include <machine/vmparam.h>
          ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec2680029125.dir/CheckIncludeFiles.c.o] Error 1
-make: *** [cmTryCompileExec2680029125/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec4035277838.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec4035277838/fast] Error 2
 
 Source:
 /* */
@@ -205,19 +205,19 @@ int main(){return 0;}
 Determining if files procfs.h exist failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2524242724/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2524242724.dir/build.make CMakeFiles/cmTryCompileExec2524242724.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3875389272/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3875389272.dir/build.make CMakeFiles/cmTryCompileExec3875389272.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2524242724.dir/CheckIncludeFiles.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec2524242724.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Building C object CMakeFiles/cmTryCompileExec3875389272.dir/CheckIncludeFiles.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec3875389272.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'procfs.h' file not found
 #include <procfs.h>
          ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec2524242724.dir/CheckIncludeFiles.c.o] Error 1
-make: *** [cmTryCompileExec2524242724/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec3875389272.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec3875389272/fast] Error 2
 
 Source:
 /* */
@@ -229,19 +229,19 @@ int main(){return 0;}
 Determining if files crt_externs.h exist failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec16959715/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec16959715.dir/build.make CMakeFiles/cmTryCompileExec16959715.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2507287721/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2507287721.dir/build.make CMakeFiles/cmTryCompileExec2507287721.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec16959715.dir/CheckIncludeFiles.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec16959715.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Building C object CMakeFiles/cmTryCompileExec2507287721.dir/CheckIncludeFiles.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec2507287721.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'crt_externs.h' file not found
 #include <crt_externs.h>
          ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec16959715.dir/CheckIncludeFiles.c.o] Error 1
-make: *** [cmTryCompileExec16959715/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec2507287721.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec2507287721/fast] Error 2
 
 Source:
 /* */
@@ -253,19 +253,19 @@ int main(){return 0;}
 Determining if files pthread_np.h exist failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec326379411/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec326379411.dir/build.make CMakeFiles/cmTryCompileExec326379411.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1256279280/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1256279280.dir/build.make CMakeFiles/cmTryCompileExec1256279280.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec326379411.dir/CheckIncludeFiles.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec326379411.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Building C object CMakeFiles/cmTryCompileExec1256279280.dir/CheckIncludeFiles.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec1256279280.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'pthread_np.h' file not found
 #include <pthread_np.h>
          ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec326379411.dir/CheckIncludeFiles.c.o] Error 1
-make: *** [cmTryCompileExec326379411/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec1256279280.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec1256279280/fast] Error 2
 
 Source:
 /* */
@@ -277,19 +277,19 @@ int main(){return 0;}
 Determining if files sys/lwp.h exist failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec974206720/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec974206720.dir/build.make CMakeFiles/cmTryCompileExec974206720.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3633446008/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3633446008.dir/build.make CMakeFiles/cmTryCompileExec3633446008.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec974206720.dir/CheckIncludeFiles.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec974206720.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Building C object CMakeFiles/cmTryCompileExec3633446008.dir/CheckIncludeFiles.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec3633446008.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'sys/lwp.h' file not found
 #include <sys/lwp.h>
          ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec974206720.dir/CheckIncludeFiles.c.o] Error 1
-make: *** [cmTryCompileExec974206720/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec3633446008.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec3633446008/fast] Error 2
 
 Source:
 /* */
@@ -301,19 +301,19 @@ int main(){return 0;}
 Determining if files lwp.h exist failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3706039914/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3706039914.dir/build.make CMakeFiles/cmTryCompileExec3706039914.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2214791207/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2214791207.dir/build.make CMakeFiles/cmTryCompileExec2214791207.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3706039914.dir/CheckIncludeFiles.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec3706039914.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Building C object CMakeFiles/cmTryCompileExec2214791207.dir/CheckIncludeFiles.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec2214791207.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'lwp.h' file not found
 #include <lwp.h>
          ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec3706039914.dir/CheckIncludeFiles.c.o] Error 1
-make: *** [cmTryCompileExec3706039914/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec2214791207.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec2214791207/fast] Error 2
 
 Source:
 /* */
@@ -325,19 +325,19 @@ int main(){return 0;}
 Determining if files runetype.h exist failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2738302382/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2738302382.dir/build.make CMakeFiles/cmTryCompileExec2738302382.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec871070290/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec871070290.dir/build.make CMakeFiles/cmTryCompileExec871070290.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2738302382.dir/CheckIncludeFiles.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec2738302382.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Building C object CMakeFiles/cmTryCompileExec871070290.dir/CheckIncludeFiles.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec871070290.dir/CheckIncludeFiles.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: 'runetype.h' file not found
 #include <runetype.h>
          ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec2738302382.dir/CheckIncludeFiles.c.o] Error 1
-make: *** [cmTryCompileExec2738302382/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec871070290.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec871070290/fast] Error 2
 
 Source:
 /* */
@@ -349,359 +349,359 @@ int main(){return 0;}
 Determining if the function kqueue exists failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2864769134/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2864769134.dir/build.make CMakeFiles/cmTryCompileExec2864769134.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1700930004/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1700930004.dir/build.make CMakeFiles/cmTryCompileExec1700930004.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2864769134.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTryCompileExec2864769134.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2864769134
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2864769134.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTryCompileExec2864769134.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2864769134 -rdynamic 
-CMakeFiles/cmTryCompileExec2864769134.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec1700930004.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTryCompileExec1700930004.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1700930004
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1700930004.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTryCompileExec1700930004.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1700930004 -rdynamic 
+CMakeFiles/cmTryCompileExec1700930004.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): undefined reference to `kqueue'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec2864769134] Error 1
-make: *** [cmTryCompileExec2864769134/fast] Error 2
+make[1]: *** [cmTryCompileExec1700930004] Error 1
+make: *** [cmTryCompileExec1700930004/fast] Error 2
 
 
 Determining if the function pthread_suspend exists in the pthread failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2190723658/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2190723658.dir/build.make CMakeFiles/cmTryCompileExec2190723658.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec480233060/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec480233060.dir/build.make CMakeFiles/cmTryCompileExec480233060.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2190723658.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_suspend   -o CMakeFiles/cmTryCompileExec2190723658.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2190723658
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2190723658.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_suspend    CMakeFiles/cmTryCompileExec2190723658.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2190723658 -rdynamic -lpthread 
-CMakeFiles/cmTryCompileExec2190723658.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec480233060.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_suspend   -o CMakeFiles/cmTryCompileExec480233060.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec480233060
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec480233060.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_suspend    CMakeFiles/cmTryCompileExec480233060.dir/CheckFunctionExists.c.o  -o cmTryCompileExec480233060 -rdynamic -lpthread 
+CMakeFiles/cmTryCompileExec480233060.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): undefined reference to `pthread_suspend'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec2190723658] Error 1
-make: *** [cmTryCompileExec2190723658/fast] Error 2
+make[1]: *** [cmTryCompileExec480233060] Error 1
+make: *** [cmTryCompileExec480233060/fast] Error 2
 
 
 Determining if the function pthread_suspend_np exists in the pthread failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec587805564/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec587805564.dir/build.make CMakeFiles/cmTryCompileExec587805564.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec585207041/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec585207041.dir/build.make CMakeFiles/cmTryCompileExec585207041.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec587805564.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_suspend_np   -o CMakeFiles/cmTryCompileExec587805564.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec587805564
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec587805564.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_suspend_np    CMakeFiles/cmTryCompileExec587805564.dir/CheckFunctionExists.c.o  -o cmTryCompileExec587805564 -rdynamic -lpthread 
-CMakeFiles/cmTryCompileExec587805564.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec585207041.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_suspend_np   -o CMakeFiles/cmTryCompileExec585207041.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec585207041
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec585207041.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_suspend_np    CMakeFiles/cmTryCompileExec585207041.dir/CheckFunctionExists.c.o  -o cmTryCompileExec585207041 -rdynamic -lpthread 
+CMakeFiles/cmTryCompileExec585207041.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): undefined reference to `pthread_suspend_np'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec587805564] Error 1
-make: *** [cmTryCompileExec587805564/fast] Error 2
+make[1]: *** [cmTryCompileExec585207041] Error 1
+make: *** [cmTryCompileExec585207041/fast] Error 2
 
 
 Determining if the function pthread_continue exists in the pthread failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec202946865/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec202946865.dir/build.make CMakeFiles/cmTryCompileExec202946865.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1665059718/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1665059718.dir/build.make CMakeFiles/cmTryCompileExec1665059718.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec202946865.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_continue   -o CMakeFiles/cmTryCompileExec202946865.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec202946865
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec202946865.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_continue    CMakeFiles/cmTryCompileExec202946865.dir/CheckFunctionExists.c.o  -o cmTryCompileExec202946865 -rdynamic -lpthread 
-CMakeFiles/cmTryCompileExec202946865.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec1665059718.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_continue   -o CMakeFiles/cmTryCompileExec1665059718.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1665059718
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1665059718.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_continue    CMakeFiles/cmTryCompileExec1665059718.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1665059718 -rdynamic -lpthread 
+CMakeFiles/cmTryCompileExec1665059718.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): undefined reference to `pthread_continue'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec202946865] Error 1
-make: *** [cmTryCompileExec202946865/fast] Error 2
+make[1]: *** [cmTryCompileExec1665059718] Error 1
+make: *** [cmTryCompileExec1665059718/fast] Error 2
 
 
 Determining if the function pthread_continue_np exists in the pthread failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec63462793/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec63462793.dir/build.make CMakeFiles/cmTryCompileExec63462793.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1643344732/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1643344732.dir/build.make CMakeFiles/cmTryCompileExec1643344732.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec63462793.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_continue_np   -o CMakeFiles/cmTryCompileExec63462793.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec63462793
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec63462793.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_continue_np    CMakeFiles/cmTryCompileExec63462793.dir/CheckFunctionExists.c.o  -o cmTryCompileExec63462793 -rdynamic -lpthread 
-CMakeFiles/cmTryCompileExec63462793.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec1643344732.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_continue_np   -o CMakeFiles/cmTryCompileExec1643344732.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1643344732
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1643344732.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_continue_np    CMakeFiles/cmTryCompileExec1643344732.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1643344732 -rdynamic -lpthread 
+CMakeFiles/cmTryCompileExec1643344732.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): undefined reference to `pthread_continue_np'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec63462793] Error 1
-make: *** [cmTryCompileExec63462793/fast] Error 2
+make[1]: *** [cmTryCompileExec1643344732] Error 1
+make: *** [cmTryCompileExec1643344732/fast] Error 2
 
 
 Determining if the function pthread_resume_np exists in the pthread failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3284291203/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3284291203.dir/build.make CMakeFiles/cmTryCompileExec3284291203.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1324093227/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1324093227.dir/build.make CMakeFiles/cmTryCompileExec1324093227.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3284291203.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_resume_np   -o CMakeFiles/cmTryCompileExec3284291203.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3284291203
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3284291203.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_resume_np    CMakeFiles/cmTryCompileExec3284291203.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3284291203 -rdynamic -lpthread 
-CMakeFiles/cmTryCompileExec3284291203.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec1324093227.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_resume_np   -o CMakeFiles/cmTryCompileExec1324093227.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1324093227
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1324093227.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_resume_np    CMakeFiles/cmTryCompileExec1324093227.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1324093227 -rdynamic -lpthread 
+CMakeFiles/cmTryCompileExec1324093227.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): undefined reference to `pthread_resume_np'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec3284291203] Error 1
-make: *** [cmTryCompileExec3284291203/fast] Error 2
+make[1]: *** [cmTryCompileExec1324093227] Error 1
+make: *** [cmTryCompileExec1324093227/fast] Error 2
 
 
 Determining if the function pthread_attr_get_np exists in the pthread failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1446807087/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1446807087.dir/build.make CMakeFiles/cmTryCompileExec1446807087.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3406652720/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3406652720.dir/build.make CMakeFiles/cmTryCompileExec3406652720.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1446807087.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_attr_get_np   -o CMakeFiles/cmTryCompileExec1446807087.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec1446807087
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1446807087.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_attr_get_np    CMakeFiles/cmTryCompileExec1446807087.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1446807087 -rdynamic -lpthread 
-CMakeFiles/cmTryCompileExec1446807087.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec3406652720.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_attr_get_np   -o CMakeFiles/cmTryCompileExec3406652720.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3406652720
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3406652720.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_attr_get_np    CMakeFiles/cmTryCompileExec3406652720.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3406652720 -rdynamic -lpthread 
+CMakeFiles/cmTryCompileExec3406652720.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): undefined reference to `pthread_attr_get_np'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec1446807087] Error 1
-make: *** [cmTryCompileExec1446807087/fast] Error 2
+make[1]: *** [cmTryCompileExec3406652720] Error 1
+make: *** [cmTryCompileExec3406652720/fast] Error 2
 
 
 Determining if the function _thread_sys_sigreturn exists failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2562534037/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2562534037.dir/build.make CMakeFiles/cmTryCompileExec2562534037.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1030550280/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1030550280.dir/build.make CMakeFiles/cmTryCompileExec1030550280.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2562534037.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=_thread_sys_sigreturn   -o CMakeFiles/cmTryCompileExec2562534037.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2562534037
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2562534037.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=_thread_sys_sigreturn    CMakeFiles/cmTryCompileExec2562534037.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2562534037 -rdynamic 
-CMakeFiles/cmTryCompileExec2562534037.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec1030550280.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=_thread_sys_sigreturn   -o CMakeFiles/cmTryCompileExec1030550280.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1030550280
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1030550280.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=_thread_sys_sigreturn    CMakeFiles/cmTryCompileExec1030550280.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1030550280 -rdynamic 
+CMakeFiles/cmTryCompileExec1030550280.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): undefined reference to `_thread_sys_sigreturn'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec2562534037] Error 1
-make: *** [cmTryCompileExec2562534037/fast] Error 2
+make[1]: *** [cmTryCompileExec1030550280] Error 1
+make: *** [cmTryCompileExec1030550280/fast] Error 2
 
 
 Determining if the function _snwprintf exists failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1805506531/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1805506531.dir/build.make CMakeFiles/cmTryCompileExec1805506531.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec4196157817/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4196157817.dir/build.make CMakeFiles/cmTryCompileExec4196157817.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1805506531.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=_snwprintf   -o CMakeFiles/cmTryCompileExec1805506531.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec1805506531
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1805506531.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=_snwprintf    CMakeFiles/cmTryCompileExec1805506531.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1805506531 -rdynamic 
-CMakeFiles/cmTryCompileExec1805506531.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec4196157817.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=_snwprintf   -o CMakeFiles/cmTryCompileExec4196157817.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4196157817
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4196157817.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=_snwprintf    CMakeFiles/cmTryCompileExec4196157817.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4196157817 -rdynamic 
+CMakeFiles/cmTryCompileExec4196157817.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): undefined reference to `_snwprintf'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec1805506531] Error 1
-make: *** [cmTryCompileExec1805506531/fast] Error 2
+make[1]: *** [cmTryCompileExec4196157817] Error 1
+make: *** [cmTryCompileExec4196157817/fast] Error 2
 
 
 Determining if the function thread_self exists failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec324672153/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec324672153.dir/build.make CMakeFiles/cmTryCompileExec324672153.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec813453136/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec813453136.dir/build.make CMakeFiles/cmTryCompileExec813453136.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec324672153.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=thread_self   -o CMakeFiles/cmTryCompileExec324672153.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec324672153
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec324672153.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=thread_self    CMakeFiles/cmTryCompileExec324672153.dir/CheckFunctionExists.c.o  -o cmTryCompileExec324672153 -rdynamic 
-CMakeFiles/cmTryCompileExec324672153.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec813453136.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=thread_self   -o CMakeFiles/cmTryCompileExec813453136.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec813453136
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec813453136.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=thread_self    CMakeFiles/cmTryCompileExec813453136.dir/CheckFunctionExists.c.o  -o cmTryCompileExec813453136 -rdynamic 
+CMakeFiles/cmTryCompileExec813453136.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): undefined reference to `thread_self'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec324672153] Error 1
-make: *** [cmTryCompileExec324672153/fast] Error 2
+make[1]: *** [cmTryCompileExec813453136] Error 1
+make: *** [cmTryCompileExec813453136/fast] Error 2
 
 
 Determining if the function _lwp_self exists failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2430328029/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2430328029.dir/build.make CMakeFiles/cmTryCompileExec2430328029.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec4160622352/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4160622352.dir/build.make CMakeFiles/cmTryCompileExec4160622352.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2430328029.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=_lwp_self   -o CMakeFiles/cmTryCompileExec2430328029.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2430328029
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2430328029.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=_lwp_self    CMakeFiles/cmTryCompileExec2430328029.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2430328029 -rdynamic 
-CMakeFiles/cmTryCompileExec2430328029.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec4160622352.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=_lwp_self   -o CMakeFiles/cmTryCompileExec4160622352.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4160622352
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4160622352.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=_lwp_self    CMakeFiles/cmTryCompileExec4160622352.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4160622352 -rdynamic 
+CMakeFiles/cmTryCompileExec4160622352.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): undefined reference to `_lwp_self'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec2430328029] Error 1
-make: *** [cmTryCompileExec2430328029/fast] Error 2
+make[1]: *** [cmTryCompileExec4160622352] Error 1
+make: *** [cmTryCompileExec4160622352/fast] Error 2
 
 
 Determining if the function pthread_mach_thread_np exists failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec71424603/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec71424603.dir/build.make CMakeFiles/cmTryCompileExec71424603.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2736813039/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2736813039.dir/build.make CMakeFiles/cmTryCompileExec2736813039.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec71424603.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_mach_thread_np   -o CMakeFiles/cmTryCompileExec71424603.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec71424603
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec71424603.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_mach_thread_np    CMakeFiles/cmTryCompileExec71424603.dir/CheckFunctionExists.c.o  -o cmTryCompileExec71424603 -rdynamic 
-CMakeFiles/cmTryCompileExec71424603.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec2736813039.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_mach_thread_np   -o CMakeFiles/cmTryCompileExec2736813039.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2736813039
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2736813039.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=pthread_mach_thread_np    CMakeFiles/cmTryCompileExec2736813039.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2736813039 -rdynamic 
+CMakeFiles/cmTryCompileExec2736813039.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): undefined reference to `pthread_mach_thread_np'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec71424603] Error 1
-make: *** [cmTryCompileExec71424603/fast] Error 2
+make[1]: *** [cmTryCompileExec2736813039] Error 1
+make: *** [cmTryCompileExec2736813039/fast] Error 2
 
 
 Determining if the function thread_set_exception_ports exists failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec961254735/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec961254735.dir/build.make CMakeFiles/cmTryCompileExec961254735.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2241963003/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2241963003.dir/build.make CMakeFiles/cmTryCompileExec2241963003.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec961254735.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=thread_set_exception_ports   -o CMakeFiles/cmTryCompileExec961254735.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec961254735
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec961254735.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=thread_set_exception_ports    CMakeFiles/cmTryCompileExec961254735.dir/CheckFunctionExists.c.o  -o cmTryCompileExec961254735 -rdynamic 
-CMakeFiles/cmTryCompileExec961254735.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec2241963003.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=thread_set_exception_ports   -o CMakeFiles/cmTryCompileExec2241963003.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2241963003
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2241963003.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=thread_set_exception_ports    CMakeFiles/cmTryCompileExec2241963003.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2241963003 -rdynamic 
+CMakeFiles/cmTryCompileExec2241963003.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): undefined reference to `thread_set_exception_ports'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec961254735] Error 1
-make: *** [cmTryCompileExec961254735/fast] Error 2
+make[1]: *** [cmTryCompileExec2241963003] Error 1
+make: *** [cmTryCompileExec2241963003/fast] Error 2
 
 
 Determining if the function vm_allocate exists failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2581408023/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2581408023.dir/build.make CMakeFiles/cmTryCompileExec2581408023.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2149694717/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2149694717.dir/build.make CMakeFiles/cmTryCompileExec2149694717.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2581408023.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=vm_allocate   -o CMakeFiles/cmTryCompileExec2581408023.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2581408023
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2581408023.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=vm_allocate    CMakeFiles/cmTryCompileExec2581408023.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2581408023 -rdynamic 
-CMakeFiles/cmTryCompileExec2581408023.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec2149694717.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=vm_allocate   -o CMakeFiles/cmTryCompileExec2149694717.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2149694717
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2149694717.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=vm_allocate    CMakeFiles/cmTryCompileExec2149694717.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2149694717 -rdynamic 
+CMakeFiles/cmTryCompileExec2149694717.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): undefined reference to `vm_allocate'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec2581408023] Error 1
-make: *** [cmTryCompileExec2581408023/fast] Error 2
+make[1]: *** [cmTryCompileExec2149694717] Error 1
+make: *** [cmTryCompileExec2149694717/fast] Error 2
 
 
 Determining if the function vm_read exists failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2562741093/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2562741093.dir/build.make CMakeFiles/cmTryCompileExec2562741093.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec754270385/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec754270385.dir/build.make CMakeFiles/cmTryCompileExec754270385.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2562741093.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=vm_read   -o CMakeFiles/cmTryCompileExec2562741093.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2562741093
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2562741093.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=vm_read    CMakeFiles/cmTryCompileExec2562741093.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2562741093 -rdynamic 
-CMakeFiles/cmTryCompileExec2562741093.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec754270385.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=vm_read   -o CMakeFiles/cmTryCompileExec754270385.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec754270385
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec754270385.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=vm_read    CMakeFiles/cmTryCompileExec754270385.dir/CheckFunctionExists.c.o  -o cmTryCompileExec754270385 -rdynamic 
+CMakeFiles/cmTryCompileExec754270385.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): undefined reference to `vm_read'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec2562741093] Error 1
-make: *** [cmTryCompileExec2562741093/fast] Error 2
+make[1]: *** [cmTryCompileExec754270385] Error 1
+make: *** [cmTryCompileExec754270385/fast] Error 2
 
 
 Determining if the function directio exists failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec284043330/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec284043330.dir/build.make CMakeFiles/cmTryCompileExec284043330.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3568604759/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3568604759.dir/build.make CMakeFiles/cmTryCompileExec3568604759.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec284043330.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=directio   -o CMakeFiles/cmTryCompileExec284043330.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec284043330
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec284043330.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=directio    CMakeFiles/cmTryCompileExec284043330.dir/CheckFunctionExists.c.o  -o cmTryCompileExec284043330 -rdynamic 
-CMakeFiles/cmTryCompileExec284043330.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec3568604759.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=directio   -o CMakeFiles/cmTryCompileExec3568604759.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3568604759
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3568604759.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=directio    CMakeFiles/cmTryCompileExec3568604759.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3568604759 -rdynamic 
+CMakeFiles/cmTryCompileExec3568604759.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): undefined reference to `directio'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec284043330] Error 1
-make: *** [cmTryCompileExec284043330/fast] Error 2
+make[1]: *** [cmTryCompileExec3568604759] Error 1
+make: *** [cmTryCompileExec3568604759/fast] Error 2
 
 
 Determining if the function ttrace exists failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2193357525/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2193357525.dir/build.make CMakeFiles/cmTryCompileExec2193357525.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec139396262/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec139396262.dir/build.make CMakeFiles/cmTryCompileExec139396262.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2193357525.dir/CheckFunctionExists.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=ttrace   -o CMakeFiles/cmTryCompileExec2193357525.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2193357525
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2193357525.dir/link.txt --verbose=1
-/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=ttrace    CMakeFiles/cmTryCompileExec2193357525.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2193357525 -rdynamic 
-CMakeFiles/cmTryCompileExec2193357525.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec139396262.dir/CheckFunctionExists.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=ttrace   -o CMakeFiles/cmTryCompileExec139396262.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec139396262
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec139396262.dir/link.txt --verbose=1
+/usr/bin/clang-3.5   -Wall -std=c11 -DCHECK_FUNCTION_EXISTS=ttrace    CMakeFiles/cmTryCompileExec139396262.dir/CheckFunctionExists.c.o  -o cmTryCompileExec139396262 -rdynamic 
+CMakeFiles/cmTryCompileExec139396262.dir/CheckFunctionExists.c.o: In function `main':
 /usr/share/cmake-2.8/Modules/CheckFunctionExists.c:(.text+0x19): undefined reference to `ttrace'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec2193357525] Error 1
-make: *** [cmTryCompileExec2193357525/fast] Error 2
+make[1]: *** [cmTryCompileExec139396262] Error 1
+make: *** [cmTryCompileExec139396262/fast] Error 2
 
 
 Performing C SOURCE FILE Test HAVE_STAT_TIMESPEC failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2519131780/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2519131780.dir/build.make CMakeFiles/cmTryCompileExec2519131780.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec914484331/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec914484331.dir/build.make CMakeFiles/cmTryCompileExec914484331.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2519131780.dir/src.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DHAVE_STAT_TIMESPEC   -o CMakeFiles/cmTryCompileExec2519131780.dir/src.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTryCompileExec914484331.dir/src.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DHAVE_STAT_TIMESPEC   -o CMakeFiles/cmTryCompileExec914484331.dir/src.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.c:8:9: error: no member named 'st_atimespec' in 'struct stat'
    tmp->st_atimespec;
    ~~~  ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec2519131780.dir/src.c.o] Error 1
-make: *** [cmTryCompileExec2519131780/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec914484331.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec914484331/fast] Error 2
 
 Source file was:
 
@@ -718,19 +718,19 @@ int main()
 Performing C SOURCE FILE Test HAVE_STAT_NSEC failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2468722887/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2468722887.dir/build.make CMakeFiles/cmTryCompileExec2468722887.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec636765617/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec636765617.dir/build.make CMakeFiles/cmTryCompileExec636765617.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2468722887.dir/src.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DHAVE_STAT_NSEC   -o CMakeFiles/cmTryCompileExec2468722887.dir/src.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTryCompileExec636765617.dir/src.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DHAVE_STAT_NSEC   -o CMakeFiles/cmTryCompileExec636765617.dir/src.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.c:8:9: error: no member named 'st_atimensec' in 'struct stat'
    tmp->st_atimensec;
    ~~~  ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec2468722887.dir/src.c.o] Error 1
-make: *** [cmTryCompileExec2468722887/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec636765617.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec636765617/fast] Error 2
 
 Source file was:
 
@@ -747,12 +747,12 @@ int main()
 Performing C SOURCE FILE Test HAVE___GREGSET_T failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3171161361/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3171161361.dir/build.make CMakeFiles/cmTryCompileExec3171161361.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec47227826/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec47227826.dir/build.make CMakeFiles/cmTryCompileExec47227826.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3171161361.dir/src.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DHAVE___GREGSET_T   -o CMakeFiles/cmTryCompileExec3171161361.dir/src.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTryCompileExec47227826.dir/src.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11 -DHAVE___GREGSET_T   -o CMakeFiles/cmTryCompileExec47227826.dir/src.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.c:7:21: error: no member named '__gregs' in 'mcontext_t'; did you mean 'gregs'?
    tmp->uc_mcontext.__gregs[0];
                     ^~~~~~~
@@ -765,8 +765,8 @@ Building C object CMakeFiles/cmTryCompileExec3171161361.dir/src.c.o
    ~~~~~~~~~~~~~~~~~~~~~~~~ ~^
 1 warning and 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec3171161361.dir/src.c.o] Error 1
-make: *** [cmTryCompileExec3171161361/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec47227826.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec47227826/fast] Error 2
 
 Source file was:
 
@@ -782,19 +782,19 @@ int main()
 Determining size of struct reg failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3964725254/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3964725254.dir/build.make CMakeFiles/cmTryCompileExec3964725254.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2195478418/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2195478418.dir/build.make CMakeFiles/cmTryCompileExec2195478418.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3964725254.dir/BSD_REGS_T.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec3964725254.dir/BSD_REGS_T.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/BSD_REGS_T.c
+Building C object CMakeFiles/cmTryCompileExec2195478418.dir/BSD_REGS_T.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec2195478418.dir/BSD_REGS_T.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/BSD_REGS_T.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/BSD_REGS_T.c:4:10: fatal error: 'machine/reg.h' file not found
 #include "machine/reg.h"
          ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec3964725254.dir/BSD_REGS_T.c.o] Error 1
-make: *** [cmTryCompileExec3964725254/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec2195478418.dir/BSD_REGS_T.c.o] Error 1
+make: *** [cmTryCompileExec2195478418/fast] Error 2
 
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/BSD_REGS_T.c:
 #include <sys/types.h>
@@ -843,12 +843,12 @@ int main(int argc, char *argv[])
 Determining size of prwatch_t failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec871659955/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec871659955.dir/build.make CMakeFiles/cmTryCompileExec871659955.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3934946571/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3934946571.dir/build.make CMakeFiles/cmTryCompileExec3934946571.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec871659955.dir/PRWATCH_T.c.o
-/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec871659955.dir/PRWATCH_T.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/PRWATCH_T.c
+Building C object CMakeFiles/cmTryCompileExec3934946571.dir/PRWATCH_T.c.o
+/usr/bin/clang-3.5  -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -std=c11    -o CMakeFiles/cmTryCompileExec3934946571.dir/PRWATCH_T.c.o   -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/PRWATCH_T.c
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/PRWATCH_T.c:19:12: error: use of undeclared identifier 'prwatch_t'
   ('0' + ((SIZE / 10000)%10)),
            ^
@@ -881,8 +881,8 @@ Building C object CMakeFiles/cmTryCompileExec871659955.dir/PRWATCH_T.c.o
                      ^
 5 errors generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec871659955.dir/PRWATCH_T.c.o] Error 1
-make: *** [cmTryCompileExec871659955/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec3934946571.dir/PRWATCH_T.c.o] Error 1
+make: *** [cmTryCompileExec3934946571/fast] Error 2
 
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CheckTypeSize/PRWATCH_T.c:
 #include <sys/types.h>
@@ -930,19 +930,19 @@ int main(int argc, char *argv[])
 Determining if the SYS_yield exist failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec155352915/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec155352915.dir/build.make CMakeFiles/cmTryCompileExec155352915.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3374160103/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3374160103.dir/build.make CMakeFiles/cmTryCompileExec3374160103.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec155352915.dir/CheckSymbolExists.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec155352915.dir/CheckSymbolExists.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Building CXX object CMakeFiles/cmTryCompileExec3374160103.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec3374160103.dir/CheckSymbolExists.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'SYS_yield'
   return ((int*)(&SYS_yield))[argc];
                   ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec155352915.dir/CheckSymbolExists.cxx.o] Error 1
-make: *** [cmTryCompileExec155352915/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec3374160103.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec3374160103/fast] Error 2
 
 File /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
@@ -962,19 +962,19 @@ int main(int argc, char** argv)
 Determining if the INFTIM exist failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec730363603/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec730363603.dir/build.make CMakeFiles/cmTryCompileExec730363603.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1389888067/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1389888067.dir/build.make CMakeFiles/cmTryCompileExec1389888067.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec730363603.dir/CheckSymbolExists.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec730363603.dir/CheckSymbolExists.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Building CXX object CMakeFiles/cmTryCompileExec1389888067.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec1389888067.dir/CheckSymbolExists.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'INFTIM'
   return ((int*)(&INFTIM))[argc];
                   ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec730363603.dir/CheckSymbolExists.cxx.o] Error 1
-make: *** [cmTryCompileExec730363603/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec1389888067.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec1389888067/fast] Error 2
 
 File /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
@@ -994,19 +994,19 @@ int main(int argc, char** argv)
 Determining if the _DEBUG exist failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3769988441/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3769988441.dir/build.make CMakeFiles/cmTryCompileExec3769988441.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1226313835/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1226313835.dir/build.make CMakeFiles/cmTryCompileExec1226313835.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3769988441.dir/CheckSymbolExists.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec3769988441.dir/CheckSymbolExists.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Building CXX object CMakeFiles/cmTryCompileExec1226313835.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11    -o CMakeFiles/cmTryCompileExec1226313835.dir/CheckSymbolExists.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier '_DEBUG'
   return ((int*)(&_DEBUG))[argc];
                   ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec3769988441.dir/CheckSymbolExists.cxx.o] Error 1
-make: *** [cmTryCompileExec3769988441/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec1226313835.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec1226313835/fast] Error 2
 
 File /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
@@ -1026,19 +1026,19 @@ int main(int argc, char** argv)
 Performing C++ SOURCE FILE Test HAVE_BSD_UUID_H failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2401982296/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2401982296.dir/build.make CMakeFiles/cmTryCompileExec2401982296.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3265352557/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3265352557.dir/build.make CMakeFiles/cmTryCompileExec3265352557.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2401982296.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_BSD_UUID_H   -o CMakeFiles/cmTryCompileExec2401982296.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec3265352557.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_BSD_UUID_H   -o CMakeFiles/cmTryCompileExec3265352557.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'uuid.h' file not found
 #include <uuid.h>
          ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec2401982296.dir/src.cxx.o] Error 1
-make: *** [cmTryCompileExec2401982296/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec3265352557.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec3265352557/fast] Error 2
 
 Return value: 1
 Source file was:
@@ -1054,15 +1054,15 @@ int main(void) {
 Performing C++ SOURCE FILE Test REALPATH_SUPPORTS_NONEXISTENT_FILES failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2432826357/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2432826357.dir/build.make CMakeFiles/cmTryCompileExec2432826357.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3865362649/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3865362649.dir/build.make CMakeFiles/cmTryCompileExec3865362649.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2432826357.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DREALPATH_SUPPORTS_NONEXISTENT_FILES   -o CMakeFiles/cmTryCompileExec2432826357.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec2432826357
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2432826357.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DREALPATH_SUPPORTS_NONEXISTENT_FILES    CMakeFiles/cmTryCompileExec2432826357.dir/src.cxx.o  -o cmTryCompileExec2432826357 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec3865362649.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DREALPATH_SUPPORTS_NONEXISTENT_FILES   -o CMakeFiles/cmTryCompileExec3865362649.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3865362649
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3865362649.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DREALPATH_SUPPORTS_NONEXISTENT_FILES    CMakeFiles/cmTryCompileExec3865362649.dir/src.cxx.o  -o cmTryCompileExec3865362649 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1089,19 +1089,19 @@ int main(void) {
 Performing C++ SOURCE FILE Test SSCANF_CANNOT_HANDLE_MISSING_EXPONENT failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3080370735/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3080370735.dir/build.make CMakeFiles/cmTryCompileExec3080370735.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2048639650/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2048639650.dir/build.make CMakeFiles/cmTryCompileExec2048639650.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3080370735.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DSSCANF_CANNOT_HANDLE_MISSING_EXPONENT   -o CMakeFiles/cmTryCompileExec3080370735.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec2048639650.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DSSCANF_CANNOT_HANDLE_MISSING_EXPONENT   -o CMakeFiles/cmTryCompileExec2048639650.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx:9:18: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
   char * strin = "12.34e";
                  ^
 1 warning generated.
-Linking CXX executable cmTryCompileExec3080370735
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3080370735.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DSSCANF_CANNOT_HANDLE_MISSING_EXPONENT    CMakeFiles/cmTryCompileExec3080370735.dir/src.cxx.o  -o cmTryCompileExec3080370735 -rdynamic 
+Linking CXX executable cmTryCompileExec2048639650
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2048639650.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DSSCANF_CANNOT_HANDLE_MISSING_EXPONENT    CMakeFiles/cmTryCompileExec2048639650.dir/src.cxx.o  -o cmTryCompileExec2048639650 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1124,12 +1124,12 @@ int main()
 Performing C++ SOURCE FILE Test HAVE_BROKEN_FIFO_SELECT failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2190027698/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2190027698.dir/build.make CMakeFiles/cmTryCompileExec2190027698.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3310155498/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3310155498.dir/build.make CMakeFiles/cmTryCompileExec3310155498.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2190027698.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_BROKEN_FIFO_SELECT   -o CMakeFiles/cmTryCompileExec2190027698.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec3310155498.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_BROKEN_FIFO_SELECT   -o CMakeFiles/cmTryCompileExec3310155498.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx:52:10: error: use of undeclared identifier 'numFD'; did you mean 'numFDs'?
     exit(numFD==0);
          ^~~~~
@@ -1139,8 +1139,8 @@ Building CXX object CMakeFiles/cmTryCompileExec2190027698.dir/src.cxx.o
             ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec2190027698.dir/src.cxx.o] Error 1
-make: *** [cmTryCompileExec2190027698/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec3310155498.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec3310155498/fast] Error 2
 
 Return value: 1
 Source file was:
@@ -1200,19 +1200,19 @@ int main(void) {
 Performing C++ SOURCE FILE Test HAVE_BROKEN_FIFO_KEVENT failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2728257073/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2728257073.dir/build.make CMakeFiles/cmTryCompileExec2728257073.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1202497594/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1202497594.dir/build.make CMakeFiles/cmTryCompileExec1202497594.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2728257073.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_BROKEN_FIFO_KEVENT   -o CMakeFiles/cmTryCompileExec2728257073.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec1202497594.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_BROKEN_FIFO_KEVENT   -o CMakeFiles/cmTryCompileExec1202497594.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx:9:10: fatal error: 'sys/event.h' file not found
 #include <sys/event.h>
          ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec2728257073.dir/src.cxx.o] Error 1
-make: *** [cmTryCompileExec2728257073/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec1202497594.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec1202497594/fast] Error 2
 
 Return value: 1
 Source file was:
@@ -1277,19 +1277,19 @@ int main(void)
 Performing C++ SOURCE FILE Test HAVE_MACH_ABSOLUTE_TIME failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec675767815/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec675767815.dir/build.make CMakeFiles/cmTryCompileExec675767815.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1128803669/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1128803669.dir/build.make CMakeFiles/cmTryCompileExec1128803669.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec675767815.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_MACH_ABSOLUTE_TIME   -o CMakeFiles/cmTryCompileExec675767815.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec1128803669.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_MACH_ABSOLUTE_TIME   -o CMakeFiles/cmTryCompileExec1128803669.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx:3:10: fatal error: 'mach/mach_time.h' file not found
 #include <mach/mach_time.h>
          ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec675767815.dir/src.cxx.o] Error 1
-make: *** [cmTryCompileExec675767815/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec1128803669.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec1128803669/fast] Error 2
 
 Return value: 1
 Source file was:
@@ -1308,15 +1308,15 @@ int main()
 Performing C++ SOURCE FILE Test MMAP_IGNORES_HINT failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1834500332/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1834500332.dir/build.make CMakeFiles/cmTryCompileExec1834500332.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2145623423/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2145623423.dir/build.make CMakeFiles/cmTryCompileExec2145623423.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1834500332.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DMMAP_IGNORES_HINT   -o CMakeFiles/cmTryCompileExec1834500332.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec1834500332
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1834500332.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DMMAP_IGNORES_HINT    CMakeFiles/cmTryCompileExec1834500332.dir/src.cxx.o  -o cmTryCompileExec1834500332 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec2145623423.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DMMAP_IGNORES_HINT   -o CMakeFiles/cmTryCompileExec2145623423.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2145623423
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2145623423.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DMMAP_IGNORES_HINT    CMakeFiles/cmTryCompileExec2145623423.dir/src.cxx.o  -o cmTryCompileExec2145623423 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1365,19 +1365,19 @@ int main(void) {
 Performing C++ SOURCE FILE Test MMAP_ANON_IGNORES_PROTECTION failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3630950043/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3630950043.dir/build.make CMakeFiles/cmTryCompileExec3630950043.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2673385655/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2673385655.dir/build.make CMakeFiles/cmTryCompileExec2673385655.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3630950043.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DMMAP_ANON_IGNORES_PROTECTION   -o CMakeFiles/cmTryCompileExec3630950043.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec2673385655.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DMMAP_ANON_IGNORES_PROTECTION   -o CMakeFiles/cmTryCompileExec2673385655.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx:27:21: error: assigning to '__sighandler_t' (aka 'void (*)(int)') from incompatible type 'void *(*)(int)': different return type ('void' vs 'void *')
   action.sa_handler = &handle_signal;
                     ^ ~~~~~~~~~~~~~~
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec3630950043.dir/src.cxx.o] Error 1
-make: *** [cmTryCompileExec3630950043/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec2673385655.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec2673385655/fast] Error 2
 
 Return value: 1
 Source file was:
@@ -1424,15 +1424,15 @@ int main(void) {
 Performing C++ SOURCE FILE Test MMAP_DOESNOT_ALLOW_REMAP failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1186799920/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1186799920.dir/build.make CMakeFiles/cmTryCompileExec1186799920.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec678455391/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec678455391.dir/build.make CMakeFiles/cmTryCompileExec678455391.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1186799920.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DMMAP_DOESNOT_ALLOW_REMAP   -o CMakeFiles/cmTryCompileExec1186799920.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec1186799920
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1186799920.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DMMAP_DOESNOT_ALLOW_REMAP    CMakeFiles/cmTryCompileExec1186799920.dir/src.cxx.o  -o cmTryCompileExec1186799920 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec678455391.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DMMAP_DOESNOT_ALLOW_REMAP   -o CMakeFiles/cmTryCompileExec678455391.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec678455391
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec678455391.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DMMAP_DOESNOT_ALLOW_REMAP    CMakeFiles/cmTryCompileExec678455391.dir/src.cxx.o  -o cmTryCompileExec678455391 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1468,15 +1468,15 @@ int main()
 Performing C++ SOURCE FILE Test ONE_SHARED_MAPPING_PER_FILEREGION_PER_PROCESS failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2033237374/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2033237374.dir/build.make CMakeFiles/cmTryCompileExec2033237374.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1002441296/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1002441296.dir/build.make CMakeFiles/cmTryCompileExec1002441296.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2033237374.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DONE_SHARED_MAPPING_PER_FILEREGION_PER_PROCESS   -o CMakeFiles/cmTryCompileExec2033237374.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec2033237374
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2033237374.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DONE_SHARED_MAPPING_PER_FILEREGION_PER_PROCESS    CMakeFiles/cmTryCompileExec2033237374.dir/src.cxx.o  -o cmTryCompileExec2033237374 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec1002441296.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DONE_SHARED_MAPPING_PER_FILEREGION_PER_PROCESS   -o CMakeFiles/cmTryCompileExec1002441296.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1002441296
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1002441296.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DONE_SHARED_MAPPING_PER_FILEREGION_PER_PROCESS    CMakeFiles/cmTryCompileExec1002441296.dir/src.cxx.o  -o cmTryCompileExec1002441296 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1538,15 +1538,15 @@ int main(void)
 Performing C++ SOURCE FILE Test PTHREAD_CREATE_MODIFIES_ERRNO failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3329375598/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3329375598.dir/build.make CMakeFiles/cmTryCompileExec3329375598.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec946799548/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec946799548.dir/build.make CMakeFiles/cmTryCompileExec946799548.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3329375598.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DPTHREAD_CREATE_MODIFIES_ERRNO   -o CMakeFiles/cmTryCompileExec3329375598.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec3329375598
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3329375598.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DPTHREAD_CREATE_MODIFIES_ERRNO    CMakeFiles/cmTryCompileExec3329375598.dir/src.cxx.o  -o cmTryCompileExec3329375598 -rdynamic -lpthread 
+Building CXX object CMakeFiles/cmTryCompileExec946799548.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DPTHREAD_CREATE_MODIFIES_ERRNO   -o CMakeFiles/cmTryCompileExec946799548.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec946799548
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec946799548.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DPTHREAD_CREATE_MODIFIES_ERRNO    CMakeFiles/cmTryCompileExec946799548.dir/src.cxx.o  -o cmTryCompileExec946799548 -rdynamic -lpthread 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1575,15 +1575,15 @@ int main() {
 Performing C++ SOURCE FILE Test SEM_INIT_MODIFIES_ERRNO failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2431397640/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2431397640.dir/build.make CMakeFiles/cmTryCompileExec2431397640.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2098093799/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2098093799.dir/build.make CMakeFiles/cmTryCompileExec2098093799.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2431397640.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DSEM_INIT_MODIFIES_ERRNO   -o CMakeFiles/cmTryCompileExec2431397640.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec2431397640
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2431397640.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DSEM_INIT_MODIFIES_ERRNO    CMakeFiles/cmTryCompileExec2431397640.dir/src.cxx.o  -o cmTryCompileExec2431397640 -rdynamic -lpthread 
+Building CXX object CMakeFiles/cmTryCompileExec2098093799.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DSEM_INIT_MODIFIES_ERRNO   -o CMakeFiles/cmTryCompileExec2098093799.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2098093799
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2098093799.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DSEM_INIT_MODIFIES_ERRNO    CMakeFiles/cmTryCompileExec2098093799.dir/src.cxx.o  -o cmTryCompileExec2098093799 -rdynamic -lpthread 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1612,19 +1612,19 @@ int main() {
 Performing C++ SOURCE FILE Test HAVE_PROCFS_CTL failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2615704964/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2615704964.dir/build.make CMakeFiles/cmTryCompileExec2615704964.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2766502510/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2766502510.dir/build.make CMakeFiles/cmTryCompileExec2766502510.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2615704964.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_PROCFS_CTL   -o CMakeFiles/cmTryCompileExec2615704964.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec2766502510.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_PROCFS_CTL   -o CMakeFiles/cmTryCompileExec2766502510.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx:18:19: error: use of undeclared identifier '$2'
   fd = open(path, $2);
                   ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec2615704964.dir/src.cxx.o] Error 1
-make: *** [cmTryCompileExec2615704964/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec2766502510.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec2766502510/fast] Error 2
 
 Return value: 1
 Source file was:
@@ -1654,15 +1654,15 @@ int main(void) {
 Performing C++ SOURCE FILE Test HAVE_COMPATIBLE_POW failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3431598979/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3431598979.dir/build.make CMakeFiles/cmTryCompileExec3431598979.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec4109786309/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4109786309.dir/build.make CMakeFiles/cmTryCompileExec4109786309.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3431598979.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_POW   -o CMakeFiles/cmTryCompileExec3431598979.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec3431598979
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3431598979.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_POW    CMakeFiles/cmTryCompileExec3431598979.dir/src.cxx.o  -o cmTryCompileExec3431598979 -rdynamic -lm 
+Building CXX object CMakeFiles/cmTryCompileExec4109786309.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_POW   -o CMakeFiles/cmTryCompileExec4109786309.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4109786309
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4109786309.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_POW    CMakeFiles/cmTryCompileExec4109786309.dir/src.cxx.o  -o cmTryCompileExec4109786309 -rdynamic -lm 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1
@@ -1684,19 +1684,19 @@ int main(void) {
 Performing C++ SOURCE FILE Test HAVE_COMPATIBLE_EXP failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec106276489/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec106276489.dir/build.make CMakeFiles/cmTryCompileExec106276489.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3531685888/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3531685888.dir/build.make CMakeFiles/cmTryCompileExec3531685888.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec106276489.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_EXP   -o CMakeFiles/cmTryCompileExec106276489.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec3531685888.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DHAVE_COMPATIBLE_EXP   -o CMakeFiles/cmTryCompileExec3531685888.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx:14:7: error: use of undeclared identifier 'memcmp'
   if (memcmp (&d, &e, sizeof (double)) == 0) {
       ^
 1 error generated.
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec106276489.dir/src.cxx.o] Error 1
-make: *** [cmTryCompileExec106276489/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec3531685888.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec3531685888/fast] Error 2
 
 Return value: 1
 Source file was:
@@ -1721,19 +1721,19 @@ int main(void) {
 Performing C++ SOURCE FILE Test FILE_OPS_CHECK_FERROR_OF_PREVIOUS_CALL failed with the following output:
 Change Dir: /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3944936666/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3944936666.dir/build.make CMakeFiles/cmTryCompileExec3944936666.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1650235394/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1650235394.dir/build.make CMakeFiles/cmTryCompileExec1650235394.dir/build
 make[1]: Entering directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3944936666.dir/src.cxx.o
-/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DFILE_OPS_CHECK_FERROR_OF_PREVIOUS_CALL   -o CMakeFiles/cmTryCompileExec3944936666.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec1650235394.dir/src.cxx.o
+/usr/bin/clang++-3.5   -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200809L -Wall -Wno-null-conversion -std=c++11 -DFILE_OPS_CHECK_FERROR_OF_PREVIOUS_CALL   -o CMakeFiles/cmTryCompileExec1650235394.dir/src.cxx.o -c /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx
 /root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp/src.cxx:8:20: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
   char *fileName = "/dev/zero";
                    ^
 1 warning generated.
-Linking CXX executable cmTryCompileExec3944936666
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3944936666.dir/link.txt --verbose=1
-/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DFILE_OPS_CHECK_FERROR_OF_PREVIOUS_CALL    CMakeFiles/cmTryCompileExec3944936666.dir/src.cxx.o  -o cmTryCompileExec3944936666 -rdynamic 
+Linking CXX executable cmTryCompileExec1650235394
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1650235394.dir/link.txt --verbose=1
+/usr/bin/clang++-3.5    -Wall -Wno-null-conversion -std=c++11 -DFILE_OPS_CHECK_FERROR_OF_PREVIOUS_CALL    CMakeFiles/cmTryCompileExec1650235394.dir/src.cxx.o  -o cmTryCompileExec1650235394 -rdynamic 
 make[1]: Leaving directory `/root/git/coreclr/bin/obj/Linux.x64.Debug/CMakeFiles/CMakeTmp'
 
 Return value: 1

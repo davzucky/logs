@@ -4,7 +4,6 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/root/git/coreclr/bin/obj/Linux.x64.Debug/version.cpp" "/root/git/coreclr/bin/obj/Linux.x64.Debug/src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/__/__/__/version.cpp.o"
   "/root/git/coreclr/src/corefx/System.Globalization.Native/calendarData.cpp" "/root/git/coreclr/bin/obj/Linux.x64.Debug/src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/calendarData.cpp.o"
   "/root/git/coreclr/src/corefx/System.Globalization.Native/casing.cpp" "/root/git/coreclr/bin/obj/Linux.x64.Debug/src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/casing.cpp.o"
   "/root/git/coreclr/src/corefx/System.Globalization.Native/collation.cpp" "/root/git/coreclr/bin/obj/Linux.x64.Debug/src/corefx/System.Globalization.Native/CMakeFiles/System.Globalization.Native.dir/collation.cpp.o"
